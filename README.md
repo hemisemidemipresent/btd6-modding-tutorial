@@ -38,7 +38,8 @@ If all goes well, the BTD6 directory should look something like this:
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776968486269616159/Screenshot_1311.png"/>
 
 ## Optional
-you can download and install the [mod manager](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/tag/2.0.0)
+there are 2 main mod managers: [this one](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest) and [this one](https://github.com/Inferno-Dev-Team/Inferno-Mod-Manager/releases/latest)
+mod managers are currently unnecessary and rather inflexible for `.dll` modding; it is as simple as dragging and dropping files into the folder
 
 # Loading Mods
 There are 2 different types of mods that are currently supported: `.dll` and `.btd6mod`
@@ -59,6 +60,8 @@ Make sure there are no useless `.zip` files in the mods directory as they can ca
 
 ## `.btd6mod`
 
+> NOTE: there are no new mods using this format and is rather dead
+
 to use .btd6mod files you **have to** use the mod loader
 
 > never use mods in coop, races and odyssey, your account will **likely** be flagged. Turn off internet if you use a speed mod. (not compulsory)
@@ -69,7 +72,7 @@ to use .btd6mod files you **have to** use the mod loader
 
 [NKHook6](https://discord.gg/GUPggzaczS) : the discord for discussing [NKHook6](https://github.com/TDToolbox/NKHook6), which is the forerunning easiest way to make mods
 
-[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewity gets his mods
+[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewity gets his mods (note that most of them arent public)
 ## Videos
 [A good tutorial using slightly older features that isnt necessarily the most efficient but a good introduction](https://www.youtube.com/watch?v=RyB5MyMpOlE&list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D)
 ## Common Mods
@@ -82,6 +85,7 @@ to use .btd6mod files you **have to** use the mod loader
 ## Others
 [BTD6 Documentation](https://github.com/TDToolbox/BTD-Docs/tree/master/Unity%20Engine/Btd6)
 
-Last updated on `just see the top left`
+## Credits
 
-Made by hemidemisemipresent and timotheeee
+hosted by: hemidemisemipresent
+maintained by: hemidemisemipresent and timotheeee
