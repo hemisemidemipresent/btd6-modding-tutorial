@@ -74,7 +74,8 @@ to use .btd6mod files you **have to** use the mod loader
 
 [Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewity gets his mods (note that most of them arent public)
 ## Videos
-[A good tutorial using slightly older features that isnt necessarily the most efficient but a good introduction](https://www.youtube.com/watch?v=RyB5MyMpOlE&list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D)
+[A good tutorial covering the basics of BTD6 Modding](https://youtu.be/tTtJN5gqPrQ?list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D)
+
 ## Common Mods
 (tested for v21)
 
