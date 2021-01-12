@@ -42,9 +42,6 @@ there are 2 main mod managers: [this one](https://github.com/TDToolbox/BTD6-Mod-
 mod managers are currently unnecessary and rather inflexible for `.dll` modding; it is as simple as dragging and dropping files into the folder
 
 # Loading Mods
-There are 2 different types of mods that are currently supported: `.dll` and `.btd6mod`
-## `.dll` 
-> note: `.dll` is windows exclusive
 
 1. put `NKHook6.dll` in a folder called "Mods" in the game's directory
 2. put the mod's `.dll` to that same directory. 
@@ -56,15 +53,29 @@ Make sure there are no useless `.zip` files in the mods directory as they can ca
 
 > `.dll.disabled` files are disabled `.dll` mods. This is usually automatically done with the mod manager
 
-> note: There is currently an issue with NKHook6 which spoils some mods. You may need to use the [older version](https://github.com/TDToolbox/NKHook6/releases/download/2.1.0/NKHook6.dll) instead of the [newer version](https://github.com/TDToolbox/NKHook6/releases/download/27/NKHook6.dll)
-
-## `.btd6mod`
-
-> NOTE: there are no new mods using this format and is rather dead
-
-to use .btd6mod files you **have to** use the mod loader
-
 > never use mods in coop, races and odyssey, your account will **likely** be flagged. Turn off internet if you use a speed mod. (not compulsory)
+
+can you add this to the tutorial:
+
+# Troubleshooting
+
+### after installing melonloader, there's no console
+
+launch the game and close it
+
+### console says eventregistry not found
+
+make sure you put nkhook6.dll in the "Mods" folder
+
+### console gives another error
+
+make sure you have no duplicate nkhook
+
+make sure you have no duplicate mods
+
+make sure you read the requirements of the mods you are using. some of them require gurren_core.dll for example, or your nkhook version might be outdated.
+
+make sure you aren't using both expansion mods at once.
 
 # Useful Links
 ## Discord Servers
