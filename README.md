@@ -115,9 +115,13 @@ this video series can also help:
 
 a few tips:
 these 3 objects have a ton of useful stuff, use visual studio to see what's available:
+
 InGame.instance.
+
 InGame.instance.bridge.
+
 Game.instance.
+
 
 you can use DNspy on assembly-csharp.dll to see the game's functions.
 
