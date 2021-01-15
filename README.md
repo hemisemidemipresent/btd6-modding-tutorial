@@ -60,33 +60,33 @@ this is an outdated format that you should avoid using. if you still want to use
 
 # Troubleshooting
 
-### after installing melonloader, there's no "Mods" folder
+### After installing melonloader, there's no "Mods" folder
 
-launch the game and close it
+Launch the game and close it
 
-### installing melonloader takes ages
+### Installing melonloader takes ages
 
-if it takes more than a few minutes, restart it. maybe your internet connection is unstable.
+If it takes more than a few minutes, restart it. maybe your internet connection is unstable.
 
-### the mod manager crashes or doesn't work
+### The mod manager crashes or doesn't work
 
-you don't need the mod manager anyways
+You don't need the mod manager anyways
 
-### console says eventregistry not found
+### Console says `EventRegistry` not found
 
-make sure you put nkhook6.dll in the "Mods" folder
+Make sure you put `NKHook6.dll` in the "Mods" folder
 
-### console gives another error
+### Console gives another error
 
-make sure you have no duplicate nkhook
+- Make sure you have no duplicate nkhook
 
-make sure you have no duplicate mods
+- Make sure you have no duplicate mods
 
-make sure you read the requirements of the mods you are using. some of them require [gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll) for example, or your nkhook version might be outdated.
+- Make sure you read the requirements of the mods you are using. some of them require [gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll) for example, or your NkHook6 version might be outdated.
 
-make sure you aren't using both expansion mods at once.
+- Make sure you aren't using both expansion mods at once.
 
-### failed to load Il2cpp
+### Failed to load Il2cpp
 
 redownload the game and reinstall melonloader
 
@@ -96,7 +96,7 @@ redownload the game and reinstall melonloader
 
 [NKHook6](https://discord.gg/GUPggzaczS) : the discord for discussing [NKHook6](https://github.com/TDToolbox/NKHook6), which is the forerunning easiest way to make mods
 
-[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most of them aren't public)
+[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most(99.998%) of them aren't public)
 
 ## Common Mods
 
@@ -104,42 +104,45 @@ redownload the game and reinstall melonloader
 
 [Speedhack](https://github.com/Timotheeee/Speed_mod/blob/main/speedhackmelon/speedhackmelon.dll)
 
-## How to make mods
+# How to make mods
 
-It is generally a good idea to start by downloading an existing mod and then modifying it as it will take care of all the references. Start by downloading the speedhack for example, fix all the dll references and the paths in the properties file and then compile it with ctrl+shift+b to make sure it works.
+## Prerequisites
+
+-  [Visual Studio](https://visualstudio.microsoft.com/) (not Visual Studio code). If you are a rich person, use [Rider](https://www.jetbrains.com/rider/) because its better
+- some knowledge of c#, though java is close enough
+- really, just try to follow [this video](https://www.youtube.com/watch?v=5wXzWSIJm2I&list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D&index=6) and if you can make a mod, you can go ahead 
+
+
+> It is generally a good idea to start by downloading an existing mod and then modifying it as it will take care of all the references. Start by downloading the speedhack for example, fix all the dll references and the paths in the properties file and then compile it with ctrl+shift+b to make sure it works. ~Timotheeee
+
+> Timotheeee is far better than me at making mods but I feel like eventually you would want to try and explore uncharted territories into unchartered methods and classes and hope you get something good to make a new mod for ~hemi
+
 
 this video series can also help:
 [A good tutorial covering the basics of BTD6 Modding](https://www.youtube.com/watch?v=5wXzWSIJm2I&list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D&index=6)
 
 [NKhook Documentation](https://github.com/TDToolbox/BTD-Docs/tree/master/Unity%20Engine/Btd6/NKHook6)
 
-a few tips:
-these 3 objects have a ton of useful stuff, use visual studio to see what's available:
+## Tips
+these 3 objects have a ton of useful stuff, use visual studio or decompilers to see what's available:
 
-InGame.instance.
+`InGame.instance`
 
-InGame.instance.bridge.
+`InGame.instance.bridge`
 
-Game.instance.
-
-
-you can use DNspy on assembly-csharp.dll to see the game's functions.
-
-a lot of mods are open source, their code can give you an idea on how to do things.
-
-## Credits
-
-hosted by: hemidemisemipresent
-maintained by: hemidemisemipresent and timotheeee
+`Game.instance`
 
 
+you can use [dnSpy](https://github.com/dnSpy/dnSpy/releases/tag/v6.1.8) or [dotPeek](https://www.jetbrains.com/decompiler/) on `Assembly-CSharp.dll` to see (most) of the games functions/methods/classes.
 
+A lot of mods are open source*, their code can give you an idea on how to do things.
 
+<sub>\*However, many of the more popular mods that are used by bigger youtubers are top-secret probably because of monetary transactions, though that is a shaky topic that is technically illegal, with little evidence. Do not quote this.<sub>
 
+# Credits
 
+hosted by: [hemidemisemipresent](https://github.com/hemisemidemipresent)
 
+maintained by: [hemidemisemipresent](https://github.com/hemisemidemipresent) and [Timotheeee]()
 
-
-
-
-
+If you want to change something here, contact `hemidemisemipresent#0301` / `Timotheeee1#0538` on discord or [create a fork and make a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) on the [github repo](https://github.com/hemisemidemipresent/btd6-modding-tutorial)
