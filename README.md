@@ -20,7 +20,7 @@ This should bring you to the BTD6 directory.
 # Downloads and Installation
 > make sure antivirus is turned off as they often cause problems
 
-1. download [NKHook6](https://github.com/TDToolbox/NKHook6/releases/download/24/NKHook6.dll) and [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/download/v0.2.7.4/MelonLoader.Installer.exe)
+1. download [NKHook6](https://github.com/TDToolbox/NKHook6/releases/download/41/NKHook6.dll) and [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/download/v0.2.7.4/MelonLoader.Installer.exe)
 
 2. install/run **melonloader** (NKHook6 will be dealt with later). You should see this screen
 
@@ -54,8 +54,6 @@ Make sure there are no useless `.zip` files in the mods directory as they can ca
 > `.dll.disabled` files are disabled `.dll` mods. This is usually automatically done with the mod manager
 
 > never use mods in coop, races and odyssey, your account will **likely** be flagged. Turn off internet if you use a speed mod. (not compulsory)
-
-can you add this to the tutorial:
 
 # Troubleshooting
 
