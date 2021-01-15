@@ -31,27 +31,32 @@ Click the "select" button.
 
 4. on the melonloader window, click the install button
 
+now launch the game and close it. then put NKHook6.dll in the mods folder
+
 If all goes well, the BTD6 directory should look something like this:
 
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776968486269616159/Screenshot_1311.png"/>
 
-**IMPORTANT: NKHook6.dll needs to be in the Mods directory at all times**
+**IMPORTANT: NKHook6.dll needs to be in the Mods directory at all times, never remove or disable it**
 
 # Loading Mods
 
-1. put `NKHook6.dll` in a folder called "Mods" in the game's directory
-2. put the mod's `.dll` to that same directory. 
+1. if the mod comes in a zip file, extract it
+2. put the mod's `.dll` in the "Mods" directory
 <img src = "https://cdn.discordapp.com/attachments/699781597515481159/776967989944647710/Screenshot_1309.png"/>
 
 Make sure not to use the same mod twice.
 
-> `.dll.disabled` files are disabled `.dll` mods. This is usually automatically done with the mod manager
+> `.dll.disabled` files are disabled `.dll` mods. This is usually automatically done with the mod manager. you can also manually rename the files to disable them.
 
 > never use mods in coop, races and odyssey, your account will **likely** be flagged. Turn off internet if you use a speed mod. (not compulsory). Alternatively, setup a Windows WM and use a second Steam account to play mods.
 
 ## Optional
 there are 2 main mod managers: [this one](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest) and [this one](https://github.com/Inferno-Dev-Team/Inferno-Mod-Manager/releases/latest)
 mod managers are currently unnecessary and rather inflexible for `.dll` modding; it is as simple as dragging and dropping files into the folder
+
+## .btd6mod files
+this is an outdated format that you should avoid using. if you still want to use it, use this: https://www.nexusmods.com/bloonstd6/mods/41
 
 # Troubleshooting
 
@@ -77,9 +82,13 @@ make sure you have no duplicate nkhook
 
 make sure you have no duplicate mods
 
-make sure you read the requirements of the mods you are using. some of them require gurren_core.dll for example, or your nkhook version might be outdated.
+make sure you read the requirements of the mods you are using. some of them require [gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll) for example, or your nkhook version might be outdated.
 
 make sure you aren't using both expansion mods at once.
+
+### failed to load Il2cpp
+
+redownload the game and reinstall melonloader
 
 # Useful Links
 ## Discord Servers
