@@ -66,7 +66,7 @@ Launch the game and close it
 
 ### Installing melonloader takes ages
 
-If it takes more than a few minutes, restart it. maybe your internet connection is unstable.
+If it takes more than a few minutes, restart it. maybe your internet connection is unstable. Make sure not to highlight any text in the console. if you do it by accident, press enter.
 
 ### The mod manager crashes or doesn't work
 
