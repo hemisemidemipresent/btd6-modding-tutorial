@@ -66,7 +66,7 @@ Launch the game and close it
 
 ### Installing melonloader takes ages
 
-If it takes more than a few minutes, restart it. maybe your internet connection is unstable.
+If it takes more than a few minutes, restart it. maybe your internet connection is unstable. Make sure not to highlight any text in the console. if you do it by accident, press enter.
 
 ### The mod manager crashes or doesn't work
 
@@ -94,9 +94,9 @@ redownload the game and reinstall melonloader
 ## Discord Servers
 [BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY) : Most public mods are here
 
-[NKHook6](https://discord.gg/GUPggzaczS) : the discord for discussing [NKHook6](https://github.com/TDToolbox/NKHook6), which is the forerunning easiest way to make mods
+[NKHook6](https://discord.gg/GUPggzaczS) : the discord for discussing [NKHook6](https://github.com/TDToolbox/NKHook6), an API that makes modding easier
 
-[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most(99.998%) of them aren't public)
+[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most of them aren't public, especially the newer ones)
 
 ## Common Mods
 
@@ -110,13 +110,8 @@ redownload the game and reinstall melonloader
 
 -  [Visual Studio](https://visualstudio.microsoft.com/) (not Visual Studio code). If you are a rich person, use [Rider](https://www.jetbrains.com/rider/) because its better
 - some knowledge of c#, though java is close enough
-- really, just try to follow [this video](https://www.youtube.com/watch?v=5wXzWSIJm2I&list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D&index=6) and if you can make a mod, you can go ahead 
 
-
-> It is generally a good idea to start by downloading an existing mod and then modifying it as it will take care of all the references. Start by downloading the speedhack for example, fix all the dll references and the paths in the properties file and then compile it with ctrl+shift+b to make sure it works. ~Timotheeee
-
-> Timotheeee is far better than me at making mods but I feel like eventually you would want to try and explore uncharted territories into unchartered methods and classes and hope you get something good to make a new mod for ~hemi
-
+It is generally a good idea to start by downloading an existing mod and then modifying it as it will take care of all the references. Start by downloading the speedhack for example, fix all the dll references and the paths in the properties file and then compile it with ctrl+shift+b to make sure it works.
 
 this video series can also help:
 [A good tutorial covering the basics of BTD6 Modding](https://www.youtube.com/watch?v=5wXzWSIJm2I&list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D&index=6)
@@ -132,12 +127,15 @@ these 3 objects have a ton of useful stuff, use visual studio or decompilers to 
 
 `Game.instance`
 
+you can use [dnSpy](https://github.com/dnSpy/dnSpy/releases/tag/v6.1.8) (recomended) or [dotPeek](https://www.jetbrains.com/decompiler/) on `Assembly-CSharp.dll` to see (most) of the games functions/methods/classes.
 
-you can use [dnSpy](https://github.com/dnSpy/dnSpy/releases/tag/v6.1.8) or [dotPeek](https://www.jetbrains.com/decompiler/) on `Assembly-CSharp.dll` to see (most) of the games functions/methods/classes.
+A lot of mods are open source, their code can give you an idea on how to do things.
 
-A lot of mods are open source*, their code can give you an idea on how to do things.
+Most mods use something known as harmony patches. The can be used to run code both before and after the game's functions are called, and can also be used to modify/read parameters and return values.
 
-<sub>\*However, many of the more popular mods that are used by bigger youtubers are top-secret probably because of monetary transactions, though that is a shaky topic that is technically illegal, with little evidence. Do not quote this.<sub>
+This mod: https://github.com/sinai-dev/UnityExplorer/releases/download/3.1.4/UnityExplorer.MelonLoader.Il2Cpp.zip makes it possible to view the unity scene.
+
+if you want to import your own 3d models into the game, you will need to create an asset bundle using the 2018 unity version, then use AssetBundle.LoadFromMemory(File.ReadAllBytes(@"bundle"))
 
 # Credits
 
