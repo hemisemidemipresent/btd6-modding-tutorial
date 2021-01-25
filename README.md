@@ -127,7 +127,6 @@ these 3 objects have a ton of useful stuff, use visual studio or decompilers to 
 
 `Game.instance`
 
-
 you can use [dnSpy](https://github.com/dnSpy/dnSpy/releases/tag/v6.1.8) (recomended) or [dotPeek](https://www.jetbrains.com/decompiler/) on `Assembly-CSharp.dll` to see (most) of the games functions/methods/classes.
 
 A lot of mods are open source, their code can give you an idea on how to do things.
@@ -137,7 +136,6 @@ Most mods use something known as harmony patches. The can be used to run code bo
 This mod: https://github.com/sinai-dev/UnityExplorer/releases/download/3.1.4/UnityExplorer.MelonLoader.Il2Cpp.zip makes it possible to view the unity scene.
 
 if you want to import your own 3d models into the game, you will need to create an asset bundle using the 2018 unity version, then use AssetBundle.LoadFromMemory(File.ReadAllBytes(@"bundle"))
-
 
 # Credits
 
