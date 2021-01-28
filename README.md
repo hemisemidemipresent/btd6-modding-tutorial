@@ -18,7 +18,7 @@ Linux: `~/.steam/steam/steamapps/common/BloonsTD6` (note that linux does not sup
 # Downloads and Installation
 > make sure antivirus is turned off as they often cause problems
 
-1. download [NKHook6](https://github.com/TDToolbox/NKHook6/releases/download/41/NKHook6.dll), [Gurren_core](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll) and [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/download/v0.2.7.4/MelonLoader.Installer.exe)
+1. download [NKHook6](https://github.com/TDToolbox/NKHook6/releases/download/41/NKHook6.dll), [Gurren_core](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [the btd6 mod helper](https://github.com/gurrenm3/BloonsTD6-Mod-Helper/releases) and [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/download/v0.2.7.4/MelonLoader.Installer.exe)
 
 2. install/run **melonloader**. You should see this screen
 
