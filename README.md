@@ -18,9 +18,9 @@ Linux: `~/.steam/steam/steamapps/common/BloonsTD6` (note that linux does not sup
 # Downloads and Installation
 > make sure antivirus is turned off as they often cause problems
 
-1. download [NKHook6](https://github.com/TDToolbox/NKHook6/releases/download/41/NKHook6.dll) and [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/download/v0.2.7.4/MelonLoader.Installer.exe)
+1. download [NKHook6](https://github.com/TDToolbox/NKHook6/releases/download/41/NKHook6.dll), [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BloonsTD6-Mod-Helper/releases) and [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/download/v0.2.7.4/MelonLoader.Installer.exe)
 
-2. install/run **melonloader** (NKHook6 will be dealt with later). You should see this screen
+2. install/run **melonloader**. You should see this screen
 
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776979212472549406/Screenshot_1313.png"/>
 Click the "select" button.
@@ -31,13 +31,13 @@ Click the "select" button.
 
 4. on the melonloader window, click the install button
 
-now launch the game and close it. then put NKHook6.dll in the mods folder
+now launch the game and close it. then put NKHook6.dll, Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the mods folder (**important**)
 
 If all goes well, the BTD6 directory should look something like this:
 
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776968486269616159/Screenshot_1311.png"/>
 
-**IMPORTANT: NKHook6.dll needs to be in the Mods directory at all times, never remove or disable it**
+**IMPORTANT: NKHook6.dll and the other 2 need to be in the Mods directory at all times, never remove or disable them**
 
 # Loading Mods
 
