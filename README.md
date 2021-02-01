@@ -74,7 +74,7 @@ You don't need the mod manager anyways
 
 ### Console says `EventRegistry` not found
 
-Make sure you put `NKHook6.dll` in the "Mods" folder
+Make sure you put NKHook6.dll, Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the "Mods" folder and that they aren't disabled
 
 ### Console gives another error
 
@@ -89,6 +89,18 @@ Make sure you put `NKHook6.dll` in the "Mods" folder
 ### Failed to load Il2cpp
 
 redownload the game and reinstall melonloader
+
+### The game crashes when loading a save file, or my profile is corrupted
+
+if you used the jukebox mod, reinstall it and then remove all custom songs before getting rid of it.
+
+if you used the free trophies mod from the nexus then your save file is broken and there's no fix. Don't use that mod.
+
+If you use uninstalled the expansion mod then loading a save file with custom towers may crash the game.
+
+### Other issues
+
+if you can't find the solution to your problem here, ask in the "help requests" channel in the "BTD6 Mods and Discussions" discord. Make sure to post screenshots and explanations of what you already tried and what the errors are, as well as the list of mods that you used/tried to use.
 
 # Useful Links
 ## Discord Servers
@@ -136,6 +148,8 @@ Most mods use something known as harmony patches. The can be used to run code bo
 This mod: https://github.com/sinai-dev/UnityExplorer/releases/download/3.1.4/UnityExplorer.MelonLoader.Il2Cpp.zip makes it possible to view the unity scene.
 
 if you want to import your own 3d models into the game, you will need to create an asset bundle using the 2018 unity version, then use AssetBundle.LoadFromMemory(File.ReadAllBytes(@"bundle"))
+
+gurren's mod helper makes modding easier: https://github.com/gurrenm3/BloonsTD6-Mod-Helper/releases
 
 # Credits
 
