@@ -123,14 +123,15 @@ if you can't find the solution to your problem here, ask in the "help requests" 
 -  [Visual Studio](https://visualstudio.microsoft.com/) (not Visual Studio code). If you are a rich person, use [Rider](https://www.jetbrains.com/rider/) because its better
 - some knowledge of c#, though java is close enough
 
-It is generally a good idea to start by downloading an existing mod and then modifying it as it will take care of all the references. Start by downloading the speedhack for example, fix all the dll references and the paths in the properties file and then compile it with ctrl+shift+b to make sure it works.
 
-this video series can also help:
-[A good tutorial covering the basics of BTD6 Modding](https://www.youtube.com/watch?v=5wXzWSIJm2I&list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D&index=6)
-
-[NKhook Documentation](https://github.com/TDToolbox/BTD-Docs/tree/master/Unity%20Engine/Btd6/NKHook6)
 
 ## Tips
+
+It is generally a good idea to start by downloading an existing mod and then modifying it as it will take care of all the references. Start by downloading the speedhack for example, fix all the dll references and the paths in the properties file and then compile it with ctrl+shift+b to make sure it works.
+
+this video series covers the basics of how to make a mod:
+[A good tutorial covering the basics of BTD6 Modding](https://www.youtube.com/watch?v=5wXzWSIJm2I&list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D&index=6)
+
 these 3 objects have a ton of useful stuff, use visual studio or decompilers to see what's available:
 
 `InGame.instance`
@@ -150,6 +151,17 @@ This mod: https://github.com/sinai-dev/UnityExplorer/releases/download/3.1.4/Uni
 if you want to import your own 3d models into the game, you will need to create an asset bundle using the 2018 unity version, then use AssetBundle.LoadFromMemory(File.ReadAllBytes(@"bundle"))
 
 gurren's mod helper makes modding easier: https://github.com/gurrenm3/BloonsTD6-Mod-Helper/releases
+
+## Editing the gamemodel
+
+the gamemodel defines everything from towers to bloons to difficulties.
+
+For a better overview of how it works here is the whole thing converted to JSON (without towers): https://cdn.discordapp.com/attachments/793858401977106462/808040397750140968/entiremodel.json
+
+here is the JSON for each individual tower: https://cdn.discordapp.com/attachments/504782676805550113/806879236610457615/towers.zip
+
+if you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/swordmonkey/Main.cs) as a template.
+
 
 # Credits
 
