@@ -13,7 +13,7 @@ By default, they can be found here
 
 Windows: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
 
-Linux: `~/.steam/steam/steamapps/common/BloonsTD6` (note that linux does not support DLL mods)
+Linux: `~/.steam/steam/steamapps/common/BloonsTD6` (The installation guide for linux is at the bottom)
 
 # Downloads and Installation
 > make sure antivirus is turned off as they often cause problems
@@ -60,31 +60,25 @@ this is an outdated format that you should avoid using. if you still want to use
 
 # Troubleshooting
 
-### After installing melonloader, there's no "Mods" folder
 
-Launch the game and close it
+### Console gives an error
 
-### Installing melonloader takes ages
+- Make sure you put NKHook6.dll, Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the "Mods" folder and that they aren't disabled
 
-If it takes more than a few minutes, restart it. maybe your internet connection is unstable. Make sure not to highlight any text in the console. if you do it by accident, press enter.
+- Make sure you have no duplicate nkhook or mod helper
+
+- Make sure you have no duplicate mods
+
+- Make sure you read the requirements of the mods you are using. Some mods haven't been updated for the latest version of the game. (mostly the leaked expansion)
+
+### Console says the mods are loaded but nothing has changed in the game
+
+You probably have a duplicate mod
 
 ### The mod manager crashes or doesn't work
 
 You don't need the mod manager anyways
 
-### Console says `EventRegistry` not found
-
-Make sure you put NKHook6.dll, Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the "Mods" folder and that they aren't disabled
-
-### Console gives another error
-
-- Make sure you have no duplicate nkhook
-
-- Make sure you have no duplicate mods
-
-- Make sure you read the requirements of the mods you are using. some of them require [gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll) for example, or your NkHook6 version might be outdated.
-
-- Make sure you aren't using both expansion mods at once.
 
 ### Failed to load Il2cpp
 
@@ -96,7 +90,14 @@ if you used the jukebox mod, reinstall it and then remove all custom songs befor
 
 if you used the free trophies mod from the nexus then your save file is broken and there's no fix. Don't use that mod.
 
-If you use uninstalled the expansion mod then loading a save file with custom towers may crash the game.
+### After installing melonloader, there's no "Mods" folder
+
+Launch the game and close it
+
+### Installing melonloader takes ages
+
+If it takes more than a few minutes, restart it. maybe your internet connection is unstable. Make sure not to highlight any text in the console. if you do it by accident, press enter.
+
 
 ### Other issues
 
@@ -162,6 +163,19 @@ here is the JSON for each individual tower: https://cdn.discordapp.com/attachmen
 
 if you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/swordmonkey/Main.cs) as a template.
 
+## How to install mods on Linux
+
+The latest MelonLoader update has broken loading mods via Wine. This may be fixed soon, though!
+
+1. Run the MelonLoader installer in Wine and target the executable as per usual. Make sure you install the latest Alpha version, v0.3, as v0.2 does not work.
+
+2. Add a DLL override for version.dll in winecfg to (native, builtin). Make sure you specify the Wine prefix as the one BTD6 uses, which is done (usually) by executing "WINEPREFIX=~/.steam/steam/steamapps/compatdata/960090/pfx winecfg".
+
+3. Install winetricks, if it isn't installed already.
+
+4. Install .NET Framework 4.8 via winetricks, if it isn't installed already (skip this step if it is). You can install it by executing "WINEPREFIX=~/.steam/steam/steamapps/compatdata/960090/pfx winetricks --force dotnet48".
+
+5. Install the Visual C++ 2015-2019 Redist, if it isn't installed already (skip this step if it is). You can install it by executing "WINEPREFIX=~/.steam/steam/steamapps/compatdata/960090/pfx winetricks vcrun2019"
 
 # Credits
 
