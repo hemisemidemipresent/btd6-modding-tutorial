@@ -47,16 +47,20 @@ If all goes well, the BTD6 directory should look something like this:
 
 Make sure not to use the same mod twice.
 
-> `.dll.disabled` files are disabled `.dll` mods. This is usually automatically done with the mod manager. you can also manually rename the files to disable them.
+> `.dll.disabled` files are disabled `.dll` mods. This is usually automatically done with the mod manager. you can also manually rename or move the files to disable them.
 
 > never use mods in coop, races and odyssey, your account will **likely** be flagged. Turn off internet if you use a speed mod. (not compulsory). Alternatively, setup a Windows WM and use a second Steam account to play mods.
 
-## Optional
-there are 2 main mod managers: [this one](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest) and [this one](https://github.com/Inferno-Dev-Team/Inferno-Mod-Manager/releases/latest)
-mod managers are currently unnecessary and rather inflexible for `.dll` modding; it is as simple as dragging and dropping files into the folder
 
-## .btd6mod files
-this is an outdated format that you should avoid using. if you still want to use it, use this: https://www.nexusmods.com/bloonstd6/mods/41
+## Common Mods
+
+[Fire Rate Changer](https://github.com/Timotheeee/btd6_mods/blob/master/rate_changer/rate_changer.dll)
+
+[Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll)
+
+## How to temporarily disable melonloader
+
+If you rename version.dll to anything else you can temporarily disable melonloader. This is useful for playing coop, races and odyssey without getting flagged.
 
 # Troubleshooting
 
@@ -111,11 +115,11 @@ if you can't find the solution to your problem here, ask in the "help requests" 
 
 [Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most of them aren't public, especially the newer ones)
 
-## Common Mods
 
-[Fire Rate Changer](https://github.com/Timotheeee/btd6_mods/blob/master/rate_changer/rate_changer.dll)
+## Optional
+there are 2 main mod managers: [this one](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest) and [this one](https://github.com/Inferno-Dev-Team/Inferno-Mod-Manager/releases/latest)
+mod managers are currently unnecessary and rather inflexible for `.dll` modding; it is as simple as dragging and dropping files into the folder
 
-[Speedhack](https://github.com/Timotheeee/Speed_mod/blob/main/speedhackmelon/speedhackmelon.dll)
 
 # How to make mods
 
@@ -161,7 +165,10 @@ For a better overview of how it works here is the whole thing converted to JSON 
 
 here is the JSON for each individual tower: https://cdn.discordapp.com/attachments/504782676805550113/806879236610457615/towers.zip
 
-if you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/swordmonkey/Main.cs) as a template.
+if you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/handkanonier/Main.cs) as a template.
+
+if you want to modify existing towers you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/no_rng/Main.cs) as a template.
+
 
 ## How to install mods on Linux
 
