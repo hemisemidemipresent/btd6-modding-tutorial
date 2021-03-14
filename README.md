@@ -5,15 +5,13 @@
 **if you already have a mod move to the next section**
 
 get them from one or more of the discord servers linked below. It is recommended that you get familiar with installing and loading mods before you begin making them.
-> **NOTE: There are no plans for Mac support. For Mac users, it is recommended to emulate Windows to play mods. ~~Like seriously if you are using a mac you should know that they are an ass to do hacky things with~~**
+
 
 # Access the Mods folder
 The BTD6 Steam folder can be found by right click BTD6 in your library, then go to Properties>Local Files>Browse Local Files.
 By default, they can be found here
 
 Windows: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
-
-Linux: `~/.steam/steam/steamapps/common/BloonsTD6` (The installation guide for linux is at the bottom)
 
 # Downloads and Installation
 > make sure antivirus is turned off as they often cause problems
@@ -75,6 +73,8 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 - Make sure you read the requirements of the mods you are using. Some mods haven't been updated for the latest version of the game. (mostly the leaked expansion)
 
+- If the console says it can't find the MelonLoader assembly, update your melonloader version
+
 ### Console says the mods are loaded but nothing has changed in the game
 
 You probably have a duplicate mod
@@ -113,7 +113,7 @@ if you can't find the solution to your problem here, ask in the "help requests" 
 
 [NKHook6](https://discord.gg/GUPggzaczS) : the discord for discussing [NKHook6](https://github.com/TDToolbox/NKHook6), an API that makes modding easier
 
-[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most of them aren't public, especially the newer ones)
+[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most of them aren't public, especially the old ones)
 
 
 ## Optional
@@ -172,17 +172,7 @@ if you want to modify existing towers you can use [this](https://github.com/Timo
 
 ## How to install mods on Linux
 
-The latest MelonLoader update has broken loading mods via Wine. This may be fixed soon, though!
-
-1. Run the MelonLoader installer in Wine and target the executable as per usual. Make sure you install the latest Alpha version, v0.3, as v0.2 does not work.
-
-2. Add a DLL override for version.dll in winecfg to (native, builtin). Make sure you specify the Wine prefix as the one BTD6 uses, which is done (usually) by executing "WINEPREFIX=~/.steam/steam/steamapps/compatdata/960090/pfx winecfg".
-
-3. Install winetricks, if it isn't installed already.
-
-4. Install .NET Framework 4.8 via winetricks, if it isn't installed already (skip this step if it is). You can install it by executing "WINEPREFIX=~/.steam/steam/steamapps/compatdata/960090/pfx winetricks --force dotnet48".
-
-5. Install the Visual C++ 2015-2019 Redist, if it isn't installed already (skip this step if it is). You can install it by executing "WINEPREFIX=~/.steam/steam/steamapps/compatdata/960090/pfx winetricks vcrun2019"
+https://gist.github.com/BowDown097/1f35312036c347c40c400f362ac780fd
 
 # Credits
 
