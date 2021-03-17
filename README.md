@@ -47,7 +47,7 @@ Make sure not to use the same mod twice.
 
 > `.dll.disabled` files are disabled `.dll` mods. This is usually automatically done with the mod manager. you can also manually rename or move the files to disable them.
 
-> never use mods in coop, races and odyssey, your account will **likely** be flagged. Turn off internet if you use a speed mod. (not compulsory). Alternatively, setup a Windows WM and use a second Steam account to play mods.
+> never use mods in coop, races and odyssey, your account will **likely** be flagged. Turn off internet if you use a speed mod. (not compulsory). Alternatively, setup a Windows virtual machine and use a second Steam account to play mods.
 
 
 ## Common Mods
