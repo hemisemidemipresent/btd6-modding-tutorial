@@ -18,9 +18,12 @@ Windows: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
 
 1. download [NKHook6](https://github.com/TDToolbox/NKHook6/releases/download/41/NKHook6.dll), [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BloonsTD6-Mod-Helper/releases) and [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/download/v0.2.7.4/MelonLoader.Installer.exe)
 
-2. install/run **melonloader**. You should see this screen
+2. install/run **melonloader** from [here.](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe) You should see this screen
 
-<img src="https://cdn.discordapp.com/attachments/699781597515481159/776979212472549406/Screenshot_1313.png"/>
+<img src="https://cdn.discordapp.com/attachments/761529691491270656/831433661270065172/unknown.png"/>
+
+Click on Settings and enable alpha releases. Make sure version 0.3.0 is selected.
+
 Click the "select" button.
 
 3. go to the BTD6 directory and click on `BloonsTD6.exe`, then click open:
@@ -54,7 +57,7 @@ Make sure not to use the same mod twice.
 
 [Fire Rate Changer](https://github.com/Timotheeee/btd6_mods/blob/master/rate_changer/rate_changer.dll)
 
-[Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll)
+[Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll) (use keys 6 to 9 to change the speed)
 
 ## How to temporarily disable melonloader
 
@@ -62,18 +65,17 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 # Troubleshooting
 
+### Cannot find melonloader assembly
+
+- Update your melonloader version to 0.3.0 (alpha)
 
 ### Console gives an error
 
 - Make sure you put NKHook6.dll, Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the "Mods" folder and that they aren't disabled
 
-- Make sure you have no duplicate nkhook or mod helper
+- Make sure you read the requirements of the mods you are using. Some mods haven't been updated for the latest version of the game, such as the leaked expansion and many of the old nexus mods.
 
-- Make sure you have no duplicate mods
-
-- Make sure you read the requirements of the mods you are using. Some mods haven't been updated for the latest version of the game. (mostly the leaked expansion)
-
-- If the console says it can't find the MelonLoader assembly, update your melonloader version
+- Make sure there are no zip files in your Mods folder
 
 ### Console says the mods are loaded but nothing has changed in the game
 
