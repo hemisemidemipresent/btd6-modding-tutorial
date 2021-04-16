@@ -16,7 +16,7 @@ Windows: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
 # Downloads and Installation
 > make sure antivirus is turned off as they often cause problems
 
-1. download [NKHook6](https://github.com/TDToolbox/NKHook6/releases/download/41/NKHook6.dll), [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BloonsTD6-Mod-Helper/releases) and [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/download/v0.2.7.4/MelonLoader.Installer.exe)
+1. download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BloonsTD6-Mod-Helper/releases) and [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/download/v0.2.7.4/MelonLoader.Installer.exe)
 
 2. install/run **melonloader** from [here.](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe) You should see this screen
 
@@ -32,13 +32,13 @@ Click the "select" button.
 
 4. on the melonloader window, click the install button
 
-now launch the game and close it. then put NKHook6.dll, Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the mods folder (**important**)
+now launch the game and close it. then put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the mods folder (**important**)
 
 If all goes well, the BTD6 directory should look something like this:
 
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776968486269616159/Screenshot_1311.png"/>
 
-**IMPORTANT: NKHook6.dll and the other 2 need to be in the Mods directory at all times, never remove or disable them**
+**IMPORTANT: BloonsTD6_Mod_Helper.dll and Gurren_core.dll need to be in the Mods directory at all times, never remove or disable them**
 
 # Loading Mods
 
@@ -46,11 +46,14 @@ If all goes well, the BTD6 directory should look something like this:
 2. put the mod's `.dll` in the "Mods" directory
 <img src = "https://cdn.discordapp.com/attachments/699781597515481159/776967989944647710/Screenshot_1309.png"/>
 
-Make sure not to use the same mod twice.
+Make sure not to use the same mod twice as it breaks melonloader.
 
 > `.dll.disabled` files are disabled `.dll` mods. This is usually automatically done with the mod manager. you can also manually rename or move the files to disable them.
 
-> never use mods in coop, races and odyssey, your account will **likely** be flagged. Turn off internet if you use a speed mod. (not compulsory). Alternatively, setup a Windows virtual machine and use a second Steam account to play mods.
+## Hacker pool
+
+Using mods in  coop, races and odyssey can get your account flagged. By default the game doesn't let you access these modes if your Mods folder isn't empty.
+To avoid getting flagged, turn off your internet if you use the speed hack. Alternatively, setup a Windows virtual machine and use a second Steam account to play mods (much safer).
 
 
 ## Common Mods
@@ -65,13 +68,17 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 # Troubleshooting
 
+### The game crashes when loading into a map
+
+if you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it.
+
 ### Cannot find melonloader assembly
 
 - Update your melonloader version to 0.3.0 (alpha)
 
 ### Console gives an error
 
-- Make sure you put NKHook6.dll, Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the "Mods" folder and that they aren't disabled
+- Make sure you put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the "Mods" folder and that they aren't disabled
 
 - Make sure you read the requirements of the mods you are using. Some mods haven't been updated for the latest version of the game, such as the leaked expansion and many of the old nexus mods.
 
@@ -112,8 +119,6 @@ if you can't find the solution to your problem here, ask in the "help requests" 
 # Useful Links
 ## Discord Servers
 [BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY) : Most public mods are here
-
-[NKHook6](https://discord.gg/GUPggzaczS) : the discord for discussing [NKHook6](https://github.com/TDToolbox/NKHook6), an API that makes modding easier
 
 [Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most of them aren't public, especially the old ones)
 
