@@ -68,6 +68,10 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 # Troubleshooting
 
+### The game crashes when loading into a map
+
+if you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it.
+
 ### Cannot find melonloader assembly
 
 - Update your melonloader version to 0.3.0 (alpha)
