@@ -46,11 +46,14 @@ If all goes well, the BTD6 directory should look something like this:
 2. put the mod's `.dll` in the "Mods" directory
 <img src = "https://cdn.discordapp.com/attachments/699781597515481159/776967989944647710/Screenshot_1309.png"/>
 
-Make sure not to use the same mod twice.
+Make sure not to use the same mod twice as it breaks melonloader.
 
 > `.dll.disabled` files are disabled `.dll` mods. This is usually automatically done with the mod manager. you can also manually rename or move the files to disable them.
 
-> never use mods in coop, races and odyssey, your account will **likely** be flagged. Turn off internet if you use a speed mod. (not compulsory). Alternatively, setup a Windows virtual machine and use a second Steam account to play mods.
+## Hacker pool
+
+Using mods in  coop, races and odyssey can get your account flagged. By default the game doesn't let you access these modes if your Mods folder isn't empty.
+To avoid getting flagged, turn off your internet if you use the speed hack. Alternatively, setup a Windows virtual machine and use a second Steam account to play mods (much safer).
 
 
 ## Common Mods
