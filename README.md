@@ -42,7 +42,7 @@ If all goes well, the BTD6 directory should look something like this:
 
 # Loading Mods
 
-1. if the mod comes in a zip file, extract it **and then delete the zip file
+1. if the mod comes in a zip file, extract it **and then delete the zip file**
 2. put the mod's `.dll` in the "Mods" directory
 <img src = "https://cdn.discordapp.com/attachments/699781597515481159/776967989944647710/Screenshot_1309.png"/>
 
