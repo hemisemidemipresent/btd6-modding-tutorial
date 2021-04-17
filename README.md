@@ -68,13 +68,13 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 # Troubleshooting
 
+### Mods that used to work before no longer work after a btd6 update
+
+Update your mods by downloading their newest versions.
+
 ### The game crashes when loading into a map
 
 if you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it.
-
-### Cannot find melonloader assembly
-
-- Update your melonloader version to 0.3.0 (alpha)
 
 ### Console gives an error
 
@@ -92,6 +92,9 @@ You probably have a duplicate mod
 
 You don't need the mod manager anyways
 
+### MSVCP140.dll was not found
+
+Download visual c++ from the official microsoft website
 
 ### Failed to load Il2cpp
 
