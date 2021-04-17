@@ -68,6 +68,10 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 # Troubleshooting
 
+### The game crashes before it can get to the loading screen
+
+Reinstall melonloader using the latest version (enable alphas in the installer's settings first)
+
 ### Mods that used to work before no longer work after a btd6 update
 
 Update your mods by downloading their newest versions.
