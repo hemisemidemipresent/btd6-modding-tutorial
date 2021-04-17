@@ -53,7 +53,7 @@ Make sure not to use the same mod twice as it breaks melonloader.
 ## Hacker pool
 
 Using mods in  coop, races and odyssey can get your account flagged. By default the game doesn't let you access these modes if your Mods folder isn't empty.
-To avoid getting flagged, turn off your internet if you use the speed hack. Alternatively, setup a Windows virtual machine and use a second Steam account to play mods (much safer).
+To avoid getting flagged, turn off your internet if you use the speed hack. Alternatively, setup a Windows virtual machine and use a second Steam account to play mods (much safer). Mods that modify how much monkey money, XP, or trophies you have will also get you flagged. If you are flagged, you will have 2 leaves above your settings icon and you will no longer be able to play public coop games or submit race times.
 
 
 ## Common Mods
