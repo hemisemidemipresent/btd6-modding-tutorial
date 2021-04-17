@@ -36,7 +36,7 @@ now launch the game and close it. then put Gurren_core.dll and BloonsTD6_Mod_Hel
 
 If all goes well, the BTD6 directory should look something like this:
 
-<img src="https://cdn.discordapp.com/attachments/699781597515481159/776968486269616159/Screenshot_1311.png"/>
+<img src="https://cdn.discordapp.com/attachments/761529691491270656/833016709900009499/unknown.png"/>
 
 **IMPORTANT: BloonsTD6_Mod_Helper.dll and Gurren_core.dll need to be in the Mods directory at all times, never remove or disable them**
 
