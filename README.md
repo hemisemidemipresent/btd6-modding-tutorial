@@ -16,9 +16,9 @@ Windows: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
 # Downloads and Installation
 > make sure antivirus is turned off as they often cause problems
 
-1. download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BloonsTD6-Mod-Helper/releases) and [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/download/v0.2.7.4/MelonLoader.Installer.exe)
+1. download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BloonsTD6-Mod-Helper/releases) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe)
 
-2. install/run **melonloader** from [here.](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe) You should see this screen
+2. Run the **melonloader** installer. You should see this screen
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/831433661270065172/unknown.png"/>
 
@@ -58,7 +58,7 @@ To avoid getting flagged, turn off your internet if you use the speed hack. Alte
 
 ## Common Mods
 
-[Fire Rate Changer](https://github.com/Timotheeee/btd6_mods/blob/master/rate_changer/rate_changer.dll)
+[Fire Rate Changer](https://github.com/Timotheeee/btd6_mods/blob/master/rate_changer/rate_changer.dll) (custom speed hypersonic)
 
 [Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll) (use keys 6 to 9 to change the speed)
 
