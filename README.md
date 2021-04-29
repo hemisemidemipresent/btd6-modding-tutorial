@@ -76,7 +76,7 @@ Reinstall melonloader version 0.3.0 (enable alphas in the settings of the instal
 
 Update the mod helper and all of your mods by downloading their newest versions.
 
-A lot of old mods no longer work at all and have been abandoned by their creator. This is especially common for Nexus mods.
+A lot of old mods no longer work at all and have been abandoned by their creator. This is especially common for Nexus mods. Remove broken abandoned mods and search for alternatives.
 
 ### Assembly Generator exited with code -2
 
