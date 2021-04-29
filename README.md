@@ -68,17 +68,25 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 # Troubleshooting
 
-### The game crashes before it can get to the loading screen
+### Mods used to work before BTD6 updated to version 25, now they don't
+
+If you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it.
+
+Reinstall melonloader version 0.3.0 (enable alphas in the settings of the installer first) **(you need to do this even if you were already using that version before the game updated)**
+
+Update the mod helper and all of your mods by downloading their newest versions.
+
+A lot of old mods no longer work at all and have been abandoned by their creator. This is especially common for Nexus mods.
+
+### Assembly Generator exited with code -2
 
 Reinstall melonloader using the latest version (enable alphas in the installer's settings first)
 
 ### Mods that used to work before no longer work after a btd6 update
 
-Update your mods by downloading their newest versions.
+Update your mods by downloading their newest versions. Some mods have been abandoned by their creator and no longer work. 
 
-### The game crashes when loading into a map
 
-if you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it.
 
 ### Console gives an error
 
@@ -87,10 +95,6 @@ if you have nkhook in your mods folder, remove it. The mods that used to require
 - Make sure you read the requirements of the mods you are using. Some mods haven't been updated for the latest version of the game, such as the leaked expansion and many of the old nexus mods.
 
 - Make sure there are no zip files in your Mods folder
-
-### Console says the mods are loaded but nothing has changed in the game
-
-You probably have a duplicate mod
 
 ### The mod manager crashes or doesn't work
 
@@ -117,6 +121,10 @@ Launch the game and close it
 ### Installing melonloader takes ages
 
 If it takes more than a few minutes, restart it. maybe your internet connection is unstable. Make sure not to highlight any text in the console. if you do it by accident, press enter.
+
+### [INTERNAL FAILURE] Failed to Execute Assembly Generator!
+
+turn off the firewall
 
 
 ### Other issues
