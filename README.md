@@ -86,6 +86,13 @@ Reinstall melonloader using the latest version (enable alphas in the installer's
 
 Update your mods by downloading their newest versions. Some mods have been abandoned by their creator and no longer work. 
 
+### Could not resolve type with token [...] BloonsTD6_Mod_Helper
+
+The BloonsTD6_Mod_Helper has been renamed to BTD_Mod_Helper for compatibility with future games (sorry for the inconvenience). Update every mod that uses the mod helper, they now require the BTD_Mod_Helper instead.
+
+### Could not resolve type with token [...] BTD_Mod_Helper
+
+The BloonsTD6_Mod_Helper has been renamed to BTD_Mod_Helper for compatibility with future games (sorry for the inconvenience). You need to download the new BTD_Mod_Helper from the link above in the tutorial. (There's a good chance you will then get the error above)
 
 
 ### Console gives an error
