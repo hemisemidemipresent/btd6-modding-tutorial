@@ -113,6 +113,10 @@ The BloonsTD6_Mod_Helper has been renamed to BTD_Mod_Helper for compatibility wi
 
 You don't need the mod manager anyways
 
+### Caching Steam ID ... [API loaded no]
+
+Restart steam then try again
+
 ### MSVCP140.dll was not found
 
 Download visual c++ from the official microsoft website
