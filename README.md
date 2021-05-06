@@ -42,19 +42,19 @@ If all goes well, the BTD6 directory should look something like this:
 
 # Loading Mods
 
-1. if the mod comes in a zip file, extract it **and then delete the zip file**
+1. if the mod comes in a zip file, extract it
 2. put the mod's `.dll` in the "Mods" directory
-<img src = "https://cdn.discordapp.com/attachments/699781597515481159/776967989944647710/Screenshot_1309.png"/>
+3. make sure that there are no zip files or duplicate mods in the "Mods" directory
 
-Make sure not to use the same mod twice as it breaks melonloader.
-
-> `.dll.disabled` files are disabled `.dll` mods. This is usually automatically done with the mod manager. you can also manually rename or move the files to disable them.
+to disable some mods, you can manually move the files to another directory.
 
 ## Hacker pool
 
-Using mods in  coop, races and odyssey can get your account flagged. By default the game doesn't let you access these modes if your Mods folder isn't empty.
-To avoid getting flagged, turn off your internet if you use the speed hack. Alternatively, setup a Windows virtual machine and use a second Steam account to play mods (much safer). Mods that modify how much monkey money, XP, or trophies you have will also get you flagged. If you are flagged, you will have 2 leaves above your settings icon and you will no longer be able to play public coop games or submit race times.
+By default the game doesn't let you access coop, races and odyssey if your Mods folder isn't empty, to prevent cheating. Using mods that give your account an advantage such as infinite money/xp/trophies/knowledge mods or abusing the speedhack to grind faster will get your account flagged. To protect your account, setup a Windows virtual machine and use a second Steam account to play mods (can also be done without a virtual machine but it's pretty annoying to switch between accounts). If you are flagged, you will have 2 leaves above your settings icon and you will no longer be able to play public coop games or submit race times.
 
+## How to temporarily disable melonloader
+
+If you rename version.dll to anything else you can temporarily disable melonloader. This is useful for playing coop, races and odyssey without having to uninstall melonloader. make sure your mods folder is empty or these gamemodes won't be available.
 
 ## Common Mods
 
@@ -62,9 +62,6 @@ To avoid getting flagged, turn off your internet if you use the speed hack. Alte
 
 [Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll) (use keys 6 to 9 to change the speed)
 
-## How to temporarily disable melonloader
-
-If you rename version.dll to anything else you can temporarily disable melonloader. This is useful for playing coop, races and odyssey without getting flagged.
 
 # Troubleshooting
 
@@ -97,9 +94,6 @@ Same as above
 ### Could not resolve type with token [...] BTD_Mod_Helper
 
 The BloonsTD6_Mod_Helper has been renamed to BTD_Mod_Helper for compatibility with future games (sorry for the inconvenience). You need to download the new BTD_Mod_Helper from the link above in the tutorial. (There's a good chance you will then get the error above)
-
-
-
 
 ### Console gives an error
 
@@ -152,12 +146,12 @@ if you can't find the solution to your problem here, ask in the "help requests" 
 ## Discord Servers
 [BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY) : Most public mods are here
 
-[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most of them aren't public, especially the old ones)
+[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most of them aren't public)
 
 
 ## Optional
 there are 2 main mod managers: [this one](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest) and [this one](https://github.com/Inferno-Dev-Team/Inferno-Mod-Manager/releases/latest)
-mod managers are currently unnecessary and rather inflexible for `.dll` modding; it is as simple as dragging and dropping files into the folder
+mod managers are currently unnecessary and rather inflexible for `.dll` modding; it is as simple as dragging and dropping files into the folder.
 
 
 # How to make mods
@@ -166,7 +160,6 @@ mod managers are currently unnecessary and rather inflexible for `.dll` modding;
 
 -  [Visual Studio](https://visualstudio.microsoft.com/) (not Visual Studio code). If you are a rich person, use [Rider](https://www.jetbrains.com/rider/) because its better
 - some knowledge of c#, though java is close enough
-
 
 
 ## Tips
