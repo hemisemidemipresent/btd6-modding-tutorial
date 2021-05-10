@@ -65,23 +65,27 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 # Troubleshooting
 
-### Mods used to work before BTD6 updated to version 25, now they don't
-
-If you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it.
-
-Reinstall melonloader version 0.3.0 (enable alphas in the settings of the installer first) **(you need to do this even if you were already using that version before the game updated)**
-
-Update the mod helper and all of your mods by downloading their newest versions.
-
-A lot of old mods no longer work at all and have been abandoned by their creator. This is especially common for Nexus mods. Remove broken abandoned mods and search for alternatives.
-
 ### Assembly Generator exited with code -2
 
 Reinstall melonloader using the latest version (enable alphas in the installer's settings first)
 
+### The mods are in the Mods folder but they don't work
+
+- If you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it. A few mods haven't been updated but those were mostly broken already.
+
+- Most of the mods on the Nexus no longer work and have been abandoned by their creator. Remove broken abandoned mods and search for up to date alternatives in the discord servers.
+
+- Make sure you put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the "Mods" folder and that they aren't disabled
+
+- Make sure there are no zip files in your Mods folder
+
+### The mod manager crashes or doesn't work
+
+You don't need the mod manager anyways
+
 ### Mods that used to work before no longer work after a btd6 update
 
-Update your mods by downloading their newest versions. Some mods have been abandoned by their creator and no longer work. 
+Update your mods by downloading their newest versions, and update the mod helper if you haven't done so already. Some mods have been abandoned by their creator and no longer work. 
 
 ### Could not resolve type with token [...] BloonsTD6_Mod_Helper
 
@@ -95,21 +99,9 @@ Same as above
 
 The BloonsTD6_Mod_Helper has been renamed to BTD_Mod_Helper for compatibility with future games (sorry for the inconvenience). You need to download the new BTD_Mod_Helper from the link above in the tutorial. (There's a good chance you will then get the error above)
 
-### Console gives an error
-
-- Make sure you put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the "Mods" folder and that they aren't disabled
-
-- Make sure you read the requirements of the mods you are using. Some mods haven't been updated for the latest version of the game, such as the leaked expansion and many of the old nexus mods.
-
-- Make sure there are no zip files in your Mods folder
-
-### The mod manager crashes or doesn't work
-
-You don't need the mod manager anyways
-
 ### Caching Steam ID ... [API loaded no]
 
-Restart steam then try again
+Restart steam then try again. If that doesn't work try running BTD6 as administrator
 
 ### MSVCP140.dll was not found
 
@@ -123,8 +115,6 @@ redownload the game and reinstall melonloader
 
 if you used the jukebox mod, reinstall it and then remove all custom songs before getting rid of it.
 
-if you used the free trophies mod from the nexus then your save file is broken and there's no fix. Don't use that mod.
-
 ### After installing melonloader, there's no "Mods" folder
 
 Launch the game and close it
@@ -135,7 +125,7 @@ If it takes more than a few minutes, restart it. maybe your internet connection 
 
 ### [INTERNAL FAILURE] Failed to Execute Assembly Generator!
 
-turn off the firewall
+turn off the firewall and run BTD6 as administrator
 
 
 ### Other issues
