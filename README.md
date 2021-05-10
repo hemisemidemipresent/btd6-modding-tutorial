@@ -113,10 +113,6 @@ Download visual c++ from the official microsoft website
 
 redownload the game and reinstall melonloader
 
-### The game crashes when loading a save file, or my profile is corrupted
-
-if you used the jukebox mod, reinstall it and then remove all custom songs before getting rid of it.
-
 ### Installing melonloader takes ages
 
 If it takes more than a few minutes, restart it. maybe your internet connection is unstable. Make sure not to highlight any text in the console. if you do it by accident, press enter.
