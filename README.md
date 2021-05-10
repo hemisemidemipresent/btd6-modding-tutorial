@@ -117,10 +117,6 @@ redownload the game and reinstall melonloader
 
 if you used the jukebox mod, reinstall it and then remove all custom songs before getting rid of it.
 
-### After installing melonloader, there's no "Mods" folder
-
-Launch the game and close it
-
 ### Installing melonloader takes ages
 
 If it takes more than a few minutes, restart it. maybe your internet connection is unstable. Make sure not to highlight any text in the console. if you do it by accident, press enter.
