@@ -79,6 +79,8 @@ Reinstall melonloader using the latest version (enable alphas in the installer's
 
 - Make sure there are no zip files in your Mods folder
 
+- It is sometimes possible for 2 different mods to conflict and cause problems. Avoid using more than 6-8 mods at once.
+
 ### The mod manager crashes or doesn't work
 
 You don't need the mod manager anyways
