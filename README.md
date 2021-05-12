@@ -95,7 +95,7 @@ The BloonsTD6_Mod_Helper has been renamed to BTD_Mod_Helper for compatibility wi
 
 ### Caching Steam ID ... [API loaded no]
 
-It is currently unknown what causes this issue. Try these things:
+Update your melonloader version to 0.3.0. If that doesn't work try these things:
 - try restarting steam
 - try running BTD6 as administrator
 - try turning off the firewall and antivirus
