@@ -102,6 +102,7 @@ It is currently unknown what causes this issue. Try these things:
 - try reinstalling btd6 and melonloader
 - try restarting your pc
 - try updating the .net framework and visual c++
+- try removing broken outdated mods if you have any
 - if nothing worked, setup a windows VM to play mods
 
 ### MSVCP140.dll was not found
