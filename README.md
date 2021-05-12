@@ -100,6 +100,7 @@ It is currently unknown what causes this issue. Try these things:
 - try running BTD6 as administrator
 - try turning off the firewall and antivirus
 - try reinstalling btd6 and melonloader
+- try restarting your pc
 
 
 ### MSVCP140.dll was not found
