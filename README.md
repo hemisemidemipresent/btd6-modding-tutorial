@@ -1,18 +1,3 @@
-# Getting mods
-
-> NOTE: you need to own BTD6 on steam obviously
-
-**if you already have a mod move to the next section**
-
-get them from one or more of the discord servers linked below. It is recommended that you get familiar with installing and loading mods before you begin making them.
-
-
-# Access the Mods folder
-The BTD6 Steam folder can be found by right click BTD6 in your library, then go to Properties>Local Files>Browse Local Files.
-By default, they can be found here
-
-Windows: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
-
 # Downloads and Installation
 > make sure antivirus is turned off as they often cause problems
 
@@ -26,7 +11,9 @@ Click on Settings and enable alpha releases. Make sure version 0.3.0 is selected
 
 Click the "select" button.
 
-3. go to the BTD6 directory and click on `BloonsTD6.exe`, then click open:
+3. go to the BTD6 directory and click on `BloonsTD6.exe`, then click open. By default the BTD6 directory is located at: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
+
+alternatively you can find it by right clicking BTD6 in your library, then go to Properties>Local Files>Browse Local Files.
 
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776980387477061662/Screenshot_1315.png"/>
 
@@ -42,11 +29,23 @@ If all goes well, the BTD6 directory should look something like this:
 
 # Loading Mods
 
+You can get mods from these discord servers:
+
+[BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY) : Most public mods are here
+
+[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most of them aren't public)
+
 1. if the mod comes in a zip file, extract it
 2. put the mod's `.dll` in the "Mods" directory
 3. make sure that there are no zip files or duplicate mods in the "Mods" directory
 
 to disable some mods, you can manually move the files to another directory.
+
+## Common Mods
+
+[Fire Rate Changer](https://github.com/Timotheeee/btd6_mods/blob/master/rate_changer/rate_changer.dll) (custom speed hypersonic, press F9 to use)
+
+[Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll) (use keys 6 to 9 to change the speed)
 
 ## Hacker pool
 
@@ -55,13 +54,6 @@ By default the game doesn't let you access coop, races and odyssey if your Mods 
 ## How to temporarily disable melonloader
 
 If you rename version.dll to anything else you can temporarily disable melonloader. This is useful for playing coop, races and odyssey without having to uninstall melonloader. make sure your mods folder is empty or these gamemodes won't be available.
-
-## Common Mods
-
-[Fire Rate Changer](https://github.com/Timotheeee/btd6_mods/blob/master/rate_changer/rate_changer.dll) (custom speed hypersonic, press F9 to use)
-
-[Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll) (use keys 6 to 9 to change the speed)
-
 
 # Troubleshooting
 
@@ -126,16 +118,9 @@ turn off the firewall and run BTD6 as administrator
 
 if you can't find the solution to your problem here, ask in the "help requests" channel in the "BTD6 Mods and Discussions" discord. Make sure to post screenshots and explanations of what you already tried and what the errors are, as well as the list of mods that you used/tried to use.
 
-# Useful Links
-## Discord Servers
-[BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY) : Most public mods are here
-
-[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most of them aren't public)
-
-
-## Optional
+# Optional mod managers
 there are 2 main mod managers: [this one](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest) and [this one](https://github.com/Inferno-Dev-Team/Inferno-Mod-Manager/releases/latest)
-mod managers are currently unnecessary and rather inflexible for `.dll` modding; it is as simple as dragging and dropping files into the folder.
+mod managers are currently unnecessary and tend to cause more problems than they solve.
 
 
 # How to make mods
@@ -143,14 +128,14 @@ mod managers are currently unnecessary and rather inflexible for `.dll` modding;
 ## Prerequisites
 
 -  [Visual Studio](https://visualstudio.microsoft.com/) (not Visual Studio code). If you are a rich person, use [Rider](https://www.jetbrains.com/rider/) because its better
-- some knowledge of c#, though java is close enough
+- some basic knowledge of c#, though java is close enough
 
 
 ## Tips
 
-It is generally a good idea to start by downloading an existing mod and then modifying it as it will take care of all the references. Start by downloading the speedhack for example, fix all the dll references and the paths in the properties file and then compile it with ctrl+shift+b to make sure it works.
+It is generally a good idea to start by downloading an existing mod and then modifying it as it will take care of all the dll references. Start by downloading the speedhack for example, fix all the paths of the dll references and the paths in the properties file and then compile it with ctrl+shift+b to make sure it works.
 
-this video series covers the basics of how to make a mod:
+this video series covers the basics of how to make a mod, although it is a bit outdated:
 [A good tutorial covering the basics of BTD6 Modding](https://www.youtube.com/watch?v=5wXzWSIJm2I&list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D&index=6)
 
 these 3 objects have a ton of useful stuff, use visual studio or decompilers to see what's available:
@@ -194,6 +179,6 @@ https://gist.github.com/BowDown097/1f35312036c347c40c400f362ac780fd
 
 hosted by: [hemidemisemipresent](https://github.com/hemisemidemipresent)
 
-maintained by: [hemidemisemipresent](https://github.com/hemisemidemipresent) and [Timotheeee]()
+maintained by: [hemidemisemipresent](https://github.com/hemisemidemipresent) and [Timotheeee](https://github.com/Timotheeee/btd6_mods)
 
 If you want to change something here, contact `hemidemisemipresent#0301` / `Timotheeee1#0538` on discord or [create a fork and make a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) on the [github repo](https://github.com/hemisemidemipresent/btd6-modding-tutorial)
