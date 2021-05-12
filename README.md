@@ -1,9 +1,9 @@
 # Downloads and Installation
 > make sure antivirus is turned off as they often cause problems
 
-1. download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe)
+download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe)
 
-2. Run the **melonloader** installer. You should see this screen
+Run the **melonloader** installer. You should see this screen
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/831433661270065172/unknown.png"/>
 
@@ -11,13 +11,13 @@ Click on Settings and enable alpha releases. Make sure version 0.3.0 is selected
 
 Click the "select" button.
 
-3. go to the BTD6 directory and click on `BloonsTD6.exe`, then click open. By default the BTD6 directory is located at: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
+go to the BTD6 directory and click on `BloonsTD6.exe`, then click open. By default the BTD6 directory is located at: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
 
 alternatively you can find it by right clicking BTD6 in your library, then go to Properties>Local Files>Browse Local Files.
 
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776980387477061662/Screenshot_1315.png"/>
 
-4. on the melonloader window, click the install button
+on the melonloader window, click the install button
 
 now launch the game and close it. then put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the mods folder (**important**)
 
