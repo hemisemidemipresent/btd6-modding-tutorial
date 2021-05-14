@@ -7,7 +7,7 @@ Run the **melonloader** installer. You should see this screen
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/831433661270065172/unknown.png"/>
 
-Click on Settings and enable alpha releases. Make sure version 0.3.0 is selected.
+Click on Settings and enable alpha releases. Make sure version 0.3.0 is selected. (VERY IMPORTANT, you will get an error if you use version 0.2.7.4)
 
 Click the "select" button.
 
