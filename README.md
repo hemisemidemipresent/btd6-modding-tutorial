@@ -49,11 +49,11 @@ to disable some mods, you can manually move the files to another directory.
 
 ## Hacker pool
 
-By default the game doesn't let you access coop, races and odyssey if your Mods folder isn't empty, to prevent cheating. Using mods that give your account an advantage such as infinite money/xp/trophies/knowledge mods or abusing the speedhack to grind faster will get your account flagged. To protect your account, setup a Windows virtual machine and use a second Steam account to play mods (can also be done without a virtual machine but it's pretty annoying to switch between accounts). If you are flagged, you will have 2 leaves above your settings icon and you will no longer be able to play public coop games or submit race times.
+By default the game doesn't let you access public coop, races and odyssey if your Mods folder isn't empty, to prevent cheating. Using mods that give your account an advantage such as infinite money/xp/trophies/knowledge mods or abusing the speedhack to grind faster will get your account flagged. To protect your account, setup a Windows virtual machine and use a second Steam account to play mods (can also be done without a virtual machine but it's pretty annoying to switch between accounts). If you are flagged, you will have 2 leaves above your settings icon and you will no longer be able to play public coop games or submit race times.
 
 ## How to temporarily disable melonloader
 
-If you rename version.dll to anything else you can temporarily disable melonloader. This is useful for playing coop, races and odyssey without having to uninstall melonloader. make sure your mods folder is empty or these gamemodes won't be available.
+If you rename version.dll to anything else you can temporarily disable melonloader. This is useful for playing public coop, races and odyssey without having to uninstall melonloader. make sure your mods folder is empty or these gamemodes won't be available.
 
 # Troubleshooting
 
