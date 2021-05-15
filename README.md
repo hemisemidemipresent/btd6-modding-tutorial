@@ -61,6 +61,10 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 Reinstall melonloader using the latest version (enable alphas in the installer's settings first)
 
+### Caching Steam ID ... [API loaded no]
+
+Same as above
+
 ### The mods are in the Mods folder but they don't work
 
 - If you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it. A few mods haven't been updated but those were mostly broken already.
@@ -93,17 +97,6 @@ Same as above
 
 The BloonsTD6_Mod_Helper has been renamed to BTD_Mod_Helper for compatibility with future games (sorry for the inconvenience). You need to download the new BTD_Mod_Helper from the link above in the tutorial. (There's a good chance you will then get the error above)
 
-### Caching Steam ID ... [API loaded no]
-
-Update your melonloader version to 0.3.0. If that doesn't work try these things:
-- try restarting steam
-- try running BTD6 as administrator
-- try turning off the firewall and antivirus
-- try reinstalling btd6 and melonloader
-- try restarting your pc
-- try updating the .net framework and visual c++
-- try removing broken outdated mods if you have any
-- if nothing worked, setup a windows VM to play mods
 
 ### MSVCP140.dll was not found
 
