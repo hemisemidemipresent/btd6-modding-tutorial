@@ -17,7 +17,7 @@ alternatively you can find it by right clicking BTD6 in your library, then go to
 
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776980387477061662/Screenshot_1315.png"/>
 
-on the melonloader window, click the install button
+on the melonloader window, click the install button.
 
 now launch the game and close it. then put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the mods folder (**important**)
 
