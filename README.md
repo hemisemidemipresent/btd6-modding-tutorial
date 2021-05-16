@@ -27,7 +27,7 @@ If all goes well, the BTD6 directory should look something like this:
 
 **IMPORTANT: BloonsTD6_Mod_Helper.dll and Gurren_core.dll need to be in the Mods directory at all times, never remove or disable them**
 
-if you get the MSVCP140.dll was not found error then download visual c++ from the official microsoft website
+if you get the MSVCP140.dll was not found error then download visual c++ from the official microsoft website.
 
 # Loading Mods
 
