@@ -3,7 +3,7 @@
 
 download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe). NKhook6 is no longer needed (and now crashes the game). If you came here from H2K Titan's video and you already installed melonloader, you need to update it to version 0.3.0 by enabling alpha releases in the installer or you **WILL** get an error.
 
-Run the **melonloader** installer. You should see this screen
+Run the **melonloader** installer. You should see this screen:
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/831433661270065172/unknown.png"/>
 
