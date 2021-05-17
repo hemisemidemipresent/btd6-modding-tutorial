@@ -1,7 +1,7 @@
 # Downloads and Installation
 > It is recommended to turn off the antivirus during installation as they can sometimes cause problems.
 
-download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe). NKhook6 is no longer needed (and now crashes the game). If you came here from H2K Titan's video and you already installed melonloader, you need to update it to version 0.3.0 by enabling alpha releases in the installer or you **WILL** get an error.
+download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases) (extract it) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe). NKhook6 is no longer needed (and now crashes the game). If you came here from H2K Titan's video and you already installed melonloader, you need to update it to version 0.3.0 by enabling alpha releases in the installer or you **WILL** get an error.
 
 Run the **melonloader** installer. You should see this screen:
 
