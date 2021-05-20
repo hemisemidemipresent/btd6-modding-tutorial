@@ -16,7 +16,7 @@ Now put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the "Mods" folder (**imp
 
 If all goes well, the Mods directory should look something like this:
 
-<img src="https://cdn.discordapp.com/attachments/761529691491270656/833016709900009499/unknown.png"/>
+<img src="https://cdn.discordapp.com/attachments/761529691491270656/844870320779296808/unknown.png"/>
 
 **IMPORTANT: BloonsTD6_Mod_Helper.dll and Gurren_core.dll need to be in the Mods directory at all times, never remove or disable them**
 
