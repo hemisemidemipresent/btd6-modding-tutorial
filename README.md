@@ -55,9 +55,9 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 Reinstall melonloader using the latest version (enable alphas in the installer's settings first)
 
-### Caching Steam ID ... [API loaded no]
+### Internal Failure
 
-Same as above
+Same as above. If that doesn't work, run the game as admin and restart Steam.
 
 ### The mods are in the Mods folder but they don't work
 
