@@ -19,7 +19,7 @@ alternatively you can find it by right clicking BTD6 in your library, then go to
 
 on the melonloader window, click the install button.
 
-now launch the game and close it. then put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the mods folder (**important**)
+Once it is installed, put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the mods folder (**important**)
 
 If all goes well, the BTD6 directory should look something like this:
 
@@ -27,7 +27,7 @@ If all goes well, the BTD6 directory should look something like this:
 
 **IMPORTANT: BloonsTD6_Mod_Helper.dll and Gurren_core.dll need to be in the Mods directory at all times, never remove or disable them**
 
-if you get the MSVCP140.dll was not found error then download visual c++ from the official microsoft website.
+now launch the game to see if it works. if you get the MSVCP140.dll was not found error then download visual c++ from the official microsoft website.
 
 # Loading Mods
 
