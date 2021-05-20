@@ -2,9 +2,13 @@
 
 download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases) (the zip, not the source code. make sure to extract the zip.) and [MelonLoader](https://github.com/LavaGang/MelonLoader/releases/download/v0.3.0/MelonLoader.x64.zip). NKhook6 is no longer needed (and now crashes the game). If you came here from H2K Titan's video then follow this guide instead, the video is outdated.
 
-Extract the contents of the melonloader zip into the BTD6 directory, which by default is located at: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
+Navigate to the BTD6 directory, which by default is located at: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
 
 alternatively you can find it by right clicking BTD6 in your library, then go to Properties>Local Files>Browse Local Files.
+
+Copy the melonloader zip and extract it in the game directory
+
+<img src="https://cdn.discordapp.com/attachments/504783182755921930/844888946731122699/unknown.png"/>
 
 The BTD6 directory should now look like this:
 
