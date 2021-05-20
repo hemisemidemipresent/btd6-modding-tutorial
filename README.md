@@ -1,33 +1,25 @@
 # Downloads and Installation
-> It is recommended to turn off the antivirus during installation as they can sometimes cause problems.
 
-download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases) (the zip, not the source code. make sure to extract the zip.) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe). NKhook6 is no longer needed (and now crashes the game). If you came here from H2K Titan's video and you already installed melonloader, you need to update it to version 0.3.0 by enabling alpha releases in the installer or you **WILL** get an error.
+download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases) (the zip, not the source code. make sure to extract the zip.) and [MelonLoader](https://github.com/LavaGang/MelonLoader/releases/download/v0.3.0/MelonLoader.x64.zip). NKhook6 is no longer needed (and now crashes the game). If you came here from H2K Titan's video then follow this guide instead, the video is outdated.
 
-Run the **melonloader** installer. You should see this screen:
-
-<img src="https://cdn.discordapp.com/attachments/761529691491270656/831433661270065172/unknown.png"/>
-
-Click on Settings and enable alpha releases. Make sure version 0.3.0 is selected. (VERY IMPORTANT, you will get an error if you use version 0.2.7.4)
-
-Click the "select" button.
-
-go to the BTD6 directory and click on `BloonsTD6.exe`, then click open. By default the BTD6 directory is located at: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
+Extract the contents of the melonloader zip into the BTD6 directory, which by default is located at: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
 
 alternatively you can find it by right clicking BTD6 in your library, then go to Properties>Local Files>Browse Local Files.
 
-<img src="https://cdn.discordapp.com/attachments/699781597515481159/776980387477061662/Screenshot_1315.png"/>
+The BTD6 directory should now look like this:
 
-on the melonloader window, click the install button.
+<img src="https://cdn.discordapp.com/attachments/761529691491270656/844868793041813534/unknown.png"/>
 
-Once it is installed, put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the mods folder (**important**)
+now launch the game to see if it works. if you get the MSVCP140.dll was not found error then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe). If you get an internal failure then run the game as an administrator.
 
-If all goes well, the BTD6 directory should look something like this:
+Now put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the "Mods" folder (**important**)
+
+If all goes well, the Mods directory should look something like this:
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/833016709900009499/unknown.png"/>
 
 **IMPORTANT: BloonsTD6_Mod_Helper.dll and Gurren_core.dll need to be in the Mods directory at all times, never remove or disable them**
 
-now launch the game to see if it works. if you get the MSVCP140.dll was not found error then download visual c++ from the official microsoft website.
 
 # Loading Mods
 
