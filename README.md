@@ -75,9 +75,9 @@ Same as above. If that doesn't work, run the game as admin and restart Steam.
 
 - It is sometimes possible for 2 different mods to conflict and cause problems. Avoid using more than 6-8 mods at once.
 
-### The mod manager crashes or doesn't work
+### The mod manager crashes with a white screen
 
-You don't need the mod manager anyways
+Create a folder called "Mods" in the btd6 directory
 
 ### Mods that used to work before no longer work after a btd6 update
 
@@ -95,18 +95,9 @@ Same as above
 
 The BloonsTD6_Mod_Helper has been renamed to BTD_Mod_Helper for compatibility with future games (sorry for the inconvenience). You need to download the new BTD_Mod_Helper from the link above in the tutorial. (There's a good chance you will then get the error above)
 
-
 ### MSVCP140.dll was not found
 
 Download visual c++ from the official microsoft website
-
-### Failed to load Il2cpp
-
-redownload the game and reinstall melonloader
-
-### Installing melonloader takes ages
-
-If it takes more than a few minutes, restart it. maybe your internet connection is unstable. Make sure not to highlight any text in the console. if you do it by accident, press enter.
 
 ### [INTERNAL FAILURE] Failed to Execute Assembly Generator!
 
