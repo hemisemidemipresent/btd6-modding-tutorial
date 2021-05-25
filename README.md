@@ -31,7 +31,7 @@ You can get mods from these discord servers:
 
 [BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY) : Most public mods are here
 
-[Inferno Server](https://discord.gg/mZuRncU7ec) : Where Tewtiy gets his mods (note that most of them aren't public)
+[Inferno Server](https://discord.gg/cqRqrvjv68) : Where Tewtiy gets his mods (note that most of them aren't public)
 
 1. if the mod comes in a zip file, extract it
 2. put the mod's `.dll` in the "Mods" directory
