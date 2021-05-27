@@ -127,7 +127,9 @@ mod managers are currently unnecessary and tend to cause more problems than they
 
 ## Tips
 
-It is generally a good idea to start by downloading an existing mod and then modifying it as it will take care of all the dll references. Start by downloading the speedhack for example, fix all the paths of the dll references and the paths in the properties file and then compile it with ctrl+shift+b to make sure it works.
+It is generally a good idea to start by downloading an existing mod and then modifying it as it will include all the nescessary files. Start by downloading the speedhack for example, fix all the paths of the dll references and the paths in the properties file and then compile it with ctrl+shift+b to make sure it works.
+
+Mods usually reference Melonloader.dll, the mod helper and most of the files in the Managed folder.
 
 this video series covers the basics of how to make a mod, although it is a bit outdated:
 [A good tutorial covering the basics of BTD6 Modding](https://www.youtube.com/watch?v=5wXzWSIJm2I&list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D&index=6)
