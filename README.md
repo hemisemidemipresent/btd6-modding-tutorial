@@ -81,7 +81,7 @@ Same as above. If that doesn't work, run the game as admin and restart Steam.
 
 ### The mod manager crashes with a white screen
 
-Create a folder called "Mods" in the btd6 directory
+Create a folder called "Mods" in the btd6 directory. If that doesn't work then simply don't use the mod manager and drag and drop the files yourself.
 
 ### Mods that used to work before no longer work after a btd6 update
 
