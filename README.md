@@ -87,18 +87,6 @@ Create a folder called "Mods" in the btd6 directory. If that doesn't work then s
 
 Update your mods by downloading their newest versions, and update the mod helper if you haven't done so already. Some mods have been abandoned by their creator and no longer work. 
 
-### Could not resolve type with token [...] BloonsTD6_Mod_Helper
-
-The BloonsTD6_Mod_Helper has been renamed to BTD_Mod_Helper for compatibility with future games (sorry for the inconvenience). Update every mod that uses the mod helper, they now require the BTD_Mod_Helper instead.
-
-### Could not load type ... while decoding custom attribute
-
-Same as above
-
-### Could not resolve type with token [...] BTD_Mod_Helper
-
-The BloonsTD6_Mod_Helper has been renamed to BTD_Mod_Helper for compatibility with future games (sorry for the inconvenience). You need to download the new BTD_Mod_Helper from the link above in the tutorial. (There's a good chance you will then get the error above)
-
 ### MSVCP140.dll was not found
 
 Download visual c++ from the official microsoft website
