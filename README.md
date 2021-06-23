@@ -55,21 +55,13 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 # Troubleshooting
 
-### Assembly Generator exited with code -2
-
-Reinstall melonloader using the latest version (enable alphas in the installer's settings first)
-
-### Caching Steam ID ... [API loaded no]
-
-Same as above. 
-
-### Internal Failure
-
-Same as above. If that doesn't work, run the game as admin and restart Steam.
-
 ### The game does not open at all, or gives an MSVCP140.dll was not found error
 
 Download visual c++ from the official microsoft website
+
+### Assembly Generator exited with code -2
+
+Reinstall melonloader using the latest version
 
 ### The mods are in the Mods folder but they don't work
 
