@@ -59,10 +59,6 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 Download visual c++ from the official microsoft website
 
-### Assembly Generator exited with code -2
-
-Reinstall melonloader using the latest version
-
 ### The mods are in the Mods folder but they don't work
 
 - If you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it. A few mods haven't been updated but those were mostly broken already.
@@ -83,6 +79,9 @@ Create a folder called "Mods" in the btd6 directory. If that doesn't work then s
 
 Update your mods by downloading their newest versions, and update the mod helper if you haven't done so already. Some mods have been abandoned by their creator and no longer work. 
 
+### Assembly Generator exited with code -2
+
+Reinstall melonloader using the latest version
 
 
 ### Other issues
