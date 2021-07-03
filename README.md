@@ -1,6 +1,6 @@
 # Downloads and Installation
 
-download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [BloonsTD6_Mod_Helper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases) (the zip, not the source code. make sure to extract the zip.) and [MelonLoader](https://github.com/LavaGang/MelonLoader/releases/download/v0.3.0/MelonLoader.x64.zip). NKhook6 is no longer needed (and now crashes the game). If you came here from H2K Titan's video then follow this guide instead, the video is outdated.
+download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [The mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases) (download BloonsTD6.Mod.Helper.zip and then **EXTRACT IT**) and [MelonLoader](https://github.com/LavaGang/MelonLoader/releases/download/v0.3.0/MelonLoader.x64.zip). NKhook6 is no longer needed (and now crashes the game). If you came here from H2K Titan's video then follow this guide instead, the video is outdated.
 
 Navigate to the BTD6 directory, which by default is located at: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
 
