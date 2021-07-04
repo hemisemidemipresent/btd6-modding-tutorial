@@ -10,7 +10,7 @@ Copy everything **inside** the melonloader zip to the game directory
 
 The BTD6 directory should now look like this: (make sure you now have version.dll and the melonloader folder)
 
-<img src="https://cdn.discordapp.com/attachments/761529691491270656/844868793041813534/unknown.png"/>
+<img src="https://cdn.discordapp.com/attachments/500665135711387680/861187775465390080/unknown.png"/>
 
 now launch the game to generate the "Mods" folder. if you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe). If you get an internal failure then run the game as an administrator.
 
