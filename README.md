@@ -6,15 +6,13 @@ Navigate to the BTD6 directory, which by default is located at: `Program Files (
 
 alternatively you can find it by right clicking BTD6 in your library, then go to Properties>Local Files>Browse Local Files.
 
-Copy the melonloader zip and extract it in the game directory
+Copy everything **inside** the melonloader zip to the game directory
 
-<img src="https://cdn.discordapp.com/attachments/504783182755921930/844888946731122699/unknown.png"/>
-
-The BTD6 directory should now look like this:
+The BTD6 directory should now look like this: (make sure you now have version.dll and the melonloader folder)
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/844868793041813534/unknown.png"/>
 
-now launch the game to see if it works. if you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe). If you get an internal failure then run the game as an administrator.
+now launch the game to generate the "Mods" folder. if you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe). If you get an internal failure then run the game as an administrator.
 
 Now put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the "Mods" folder (**important**)
 
