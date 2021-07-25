@@ -59,6 +59,8 @@ Download visual c++ from the official microsoft website
 
 ### The mods are in the Mods folder but they don't work
 
+- Make sure you are using Melonloader 0.3.0
+
 - If you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it. A few mods haven't been updated but those were mostly broken already.
 
 - Most of the mods on the Nexus no longer work and have been abandoned by their creator. Remove broken abandoned mods and search for up to date alternatives in the discord servers.
@@ -105,6 +107,8 @@ It is generally a good idea to start by downloading an existing mod and then mod
 
 Mods usually reference Melonloader.dll, the mod helper and most of the files in the Managed folder.
 
+The [Mod helper wiki](https://github.com/gurrenm3/BTD-Mod-Helper/wiki) has a bunch of useful documentation.
+
 this video series covers the basics of how to make a mod, although it is a bit outdated:
 [A good tutorial covering the basics of BTD6 Modding](https://www.youtube.com/watch?v=5wXzWSIJm2I&list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D&index=6)
 
@@ -126,8 +130,6 @@ This mod: https://github.com/sinai-dev/UnityExplorer/releases/download/3.1.4/Uni
 
 if you want to import your own 3d models into the game, you will need to create an asset bundle using the 2018 unity version, then use AssetBundle.LoadFromMemory(File.ReadAllBytes(@"bundle"))
 
-gurren's mod helper makes modding easier: https://github.com/gurrenm3/BloonsTD6-Mod-Helper/releases
-
 ## Editing the gamemodel
 
 the gamemodel defines everything from towers to bloons to difficulties.
@@ -136,7 +138,7 @@ For a better overview of how it works here is the whole thing converted to JSON 
 
 here is the JSON for each individual tower: https://cdn.discordapp.com/attachments/505179324488613909/836926742404923412/Towers.7z
 
-if you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/handkanonier/Main.cs) as a template.
+if you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/handkanonier/Main.cs) as a template. Creating custom towers mostly involves copying existing behaviors and pasting them together. Use the JSON above to see how towers are defined.
 
 if you want to modify existing towers you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/no_rng/Main.cs) as a template.
 
