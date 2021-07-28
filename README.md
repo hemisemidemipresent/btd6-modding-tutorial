@@ -134,9 +134,9 @@ if you want to import your own 3d models into the game, you will need to create 
 
 the gamemodel defines everything from towers to bloons to difficulties.
 
-For a better overview of how it works here is the whole thing converted to JSON (without towers): https://cdn.discordapp.com/attachments/505179324488613909/836926751463440404/entiremodel.zip
+For a better overview of how it works here is the whole thing converted to JSON (without towers): https://cdn.discordapp.com/attachments/504783182755921930/869939855923236944/entiremodel.json
 
-here is the JSON for each individual tower: https://cdn.discordapp.com/attachments/505179324488613909/836926742404923412/Towers.7z
+here is the JSON for each individual tower: https://cdn.discordapp.com/attachments/504783182755921930/869939786734010418/Towers.zip
 
 if you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/handkanonier/Main.cs) as a template. Creating custom towers mostly involves copying existing behaviors and pasting them together. Use the JSON above to see how towers are defined.
 
