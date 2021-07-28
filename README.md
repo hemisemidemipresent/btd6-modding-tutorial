@@ -1,12 +1,12 @@
 # Downloads and Installation
 
-download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [The mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases) (download BloonsTD6.Mod.Helper.zip and then **EXTRACT IT**) and [MelonLoader](https://github.com/LavaGang/MelonLoader/releases/download/v0.3.0/MelonLoader.x64.zip). NKhook6 is no longer needed (and now crashes the game). If you came here from H2K Titan's video then follow this guide instead, the video is outdated.
+download [Gurren_core.dll](https://cdn.discordapp.com/attachments/504783182755921930/799372741056528414/Gurren_Core.dll), [The mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases) (download BloonsTD6.Mod.Helper.zip and then **EXTRACT IT**) and [MelonLoader](https://github.com/LavaGang/MelonLoader/releases/download/v0.3.0/MelonLoader.x64.zip).
 
 Navigate to the BTD6 directory, which by default is located at: `Program Files (x86)\Steam\steamapps\common\BloonsTD6`
 
 alternatively you can find it by right clicking BTD6 in your library, then go to Properties>Local Files>Browse Local Files.
 
-Copy everything **inside** the melonloader zip to the game directory
+Extract the files that are **inside** of the melonloader zip to the game directory
 
 The BTD6 directory should now look like this: (make sure you now have version.dll and the melonloader folder)
 
@@ -22,6 +22,11 @@ If all goes well, the Mods directory should look something like this:
 
 **IMPORTANT: BloonsTD6_Mod_Helper.dll and Gurren_core.dll need to be in the Mods directory at all times, never remove or disable them**
 
+## Common Mods
+
+[Fire Rate Changer](https://github.com/Timotheeee/btd6_mods/blob/master/rate_changer/rate_changer.dll) (custom speed hypersonic, press F9 to use)
+
+[Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll) (use keys 6 to 9 to change the speed)
 
 # Loading Mods
 
@@ -36,12 +41,6 @@ You can get mods from these discord servers:
 3. make sure that there are no zip files or duplicate mods in the "Mods" directory
 
 to disable some mods, you can manually move the files to another directory.
-
-## Common Mods
-
-[Fire Rate Changer](https://github.com/Timotheeee/btd6_mods/blob/master/rate_changer/rate_changer.dll) (custom speed hypersonic, press F9 to use)
-
-[Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll) (use keys 6 to 9 to change the speed)
 
 ## Hacker pool
 
