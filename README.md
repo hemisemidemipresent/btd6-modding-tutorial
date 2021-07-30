@@ -4,7 +4,7 @@ download [The mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases) (
 
 Run the **melonloader** installer. You should see this screen
 
-<img src="https://cdn.discordapp.com/attachments/761529691491270656/831433661270065172/unknown.png"/>
+<img src="https://cdn.discordapp.com/attachments/761529691491270656/870680857940209694/unknown.png"/>
 
 Click the "select" button.
 
