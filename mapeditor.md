@@ -20,6 +20,7 @@ If someone sent you a zip file with a map in it, just extract it into the map_ed
 
 # todo
 - let it support multiple tracks and spawner types
+- fix the map icons (convert the png to a sprite reference)
 - add color for the "track" area
 - make tutorial video
 
