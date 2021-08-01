@@ -10,7 +10,7 @@ Start by Extracting the zip in your Mods folder
 press F1, click around, press F1 again when you're done
 
 ## defining areas
-select the area type with keys 0-3, then press F2, then click to define a polygon, then press F2 again when you're done.
+select the area type with keys 0-3, then press F2, then click to define a polygon, then press F2 again when you're done. Make sure to only change the area type when you're not already writing an area.
 
 ## end
 Once you are done defining your map, close the game. You can now remove the map editor mod if you want to. When you restart the game, your map will work.
