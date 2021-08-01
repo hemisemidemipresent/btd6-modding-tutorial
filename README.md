@@ -111,9 +111,6 @@ Mods usually reference Melonloader.dll, the mod helper and most of the files in 
 
 The [Mod helper wiki](https://github.com/gurrenm3/BTD-Mod-Helper/wiki) has a bunch of useful documentation.
 
-this video series covers the basics of how to make a mod, although it is a bit outdated:
-[A good tutorial covering the basics of BTD6 Modding](https://www.youtube.com/watch?v=5wXzWSIJm2I&list=PLWFKnf1pcvUuBUrVQouhvhxqOSQRjst7D&index=6)
-
 these 3 objects have a ton of useful stuff, use visual studio or decompilers to see what's available:
 
 `InGame.instance`
