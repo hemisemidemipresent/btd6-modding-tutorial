@@ -1,6 +1,7 @@
 # Downloads and Installation
 
-download [The mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases) (download BloonsTD6.Mod.Helper.zip and then **EXTRACT IT**) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe).
+download [The mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases) (download BloonsTD6_Mod_Helper.zip
+ and then **EXTRACT IT**) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe).
 
 Run the **melonloader** installer. You should see this screen
 
