@@ -18,3 +18,8 @@ Once you are done defining your map, close the game. You can now remove the map 
 # How to use the map loader
 If someone sent you a zip file with a map in it, just extract it into the map_editor folder
 
+# todo
+- let it support multiple tracks and spawner types
+- add color for the "track" area
+- make tutorial video
+
