@@ -9,7 +9,7 @@ Run the **melonloader** installer. You should see this screen
 
 Click the "select" button.
 
-Navigate to the BTD6 directory, which by default is located at: `Program Files (x86)\Steam\steamapps\common\BloonsTD6` and click on `BloonsTD6.exe`, then click open:
+Navigate to the BTD6 directory, which by default is located at: `C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6` and click on `BloonsTD6.exe`, then click open:
 
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776980387477061662/Screenshot_1315.png"/>
 
