@@ -12,6 +12,9 @@ press F1, click around, press F1 again when you're done
 ## defining areas
 select the area type with keys 0-3, then press F2, then click to define a polygon, then press F2 again when you're done. Make sure to only change the area type when you're not already writing an area.
 
+## undoing changes
+in the map's folder you can edit or delete the paths.txt or areas.txt files to undo your recent changes or to start from scratch.
+
 ## end
 Once you are done defining your map, close the game. You can now remove the map editor mod if you want to. When you restart the game, your map will work.
 
