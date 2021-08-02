@@ -61,7 +61,7 @@ Download visual c++ from the official microsoft website
 
 ### The mods are in the Mods folder but they don't work
 
-- Make sure you are using Melonloader 0.3.0
+- Make sure you are using Melonloader 0.4.3
 
 - If you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it. A few mods haven't been updated but those were mostly broken already.
 
