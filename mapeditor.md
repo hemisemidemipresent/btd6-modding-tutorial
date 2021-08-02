@@ -10,7 +10,7 @@ Start by Extracting the zip in your Mods folder
 press F1, click around, press F1 again when you're done
 
 ## defining areas
-select the area type with keys 0-3, then press F2, then click to define a polygon, then press F2 again when you're done. Make sure to only change the area type when you're not already writing an area.
+select the area type with keys 0-3, then press F2, then click to define a polygon, then press F2 again when you're done. It is highly recommended to start by making the entire map a "land" area and then drawing the water/walls on top of that. Polygons autocomplete themselves and the newest areas are stacked on top of the older ones.
 
 ## undoing changes
 in the map's folder you can edit or delete the paths.txt or areas.txt files to undo your recent changes or to start from scratch.
