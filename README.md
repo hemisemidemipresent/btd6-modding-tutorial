@@ -55,36 +55,31 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 # Troubleshooting
 
-### The game does not open at all, or gives an MSVCP140.dll was not found error
-
-Download visual c++ from the official microsoft website
-
 ### The mods are in the Mods folder but they don't work
 
-- Make sure you are using Melonloader 0.4.3
-
-- If you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it. A few mods haven't been updated but those were mostly broken already.
+- Make sure you are using Melonloader 0.4.3 and the latest version of the mod helper
 
 - Most of the mods on the Nexus no longer work and have been abandoned by their creator. Remove broken abandoned mods and search for up to date alternatives in the discord servers.
 
-- Make sure you put Gurren_core.dll and BloonsTD6_Mod_Helper.dll in the "Mods" folder and that they aren't disabled
-
-- Make sure there are no zip files in your Mods folder
-
 - It is sometimes possible for 2 different mods to conflict and cause problems. Avoid using more than 6-8 mods at once.
 
-### The mod manager crashes with a white screen
-
-Create a folder called "Mods" in the btd6 directory. If that doesn't work then simply don't use the mod manager and drag and drop the files yourself.
+- If you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it. A few mods haven't been updated but those were mostly broken already.
 
 ### Mods that used to work before no longer work after a btd6 update
 
 Update your mods by downloading their newest versions, and update the mod helper if you haven't done so already. Some mods have been abandoned by their creator and no longer work. 
 
+### The game does not open at all, or gives an MSVCP140.dll was not found error
+
+Download visual c++ from the official microsoft website
+
+### The mod manager crashes with a white screen
+
+Create a folder called "Mods" in the btd6 directory. If that doesn't work then simply don't use the mod manager and drag and drop the files yourself.
+
 ### Assembly Generator exited with code -2
 
 Reinstall melonloader using the latest version
-
 
 ### Other issues
 
