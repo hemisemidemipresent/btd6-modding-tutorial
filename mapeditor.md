@@ -10,18 +10,21 @@ Start by Extracting the zip in your Mods folder
 press F1, click around, press F1 again when you're done
 
 ## defining areas
-select the area type with keys 0-3, then press F2, then click to define a polygon, then press F2 again when you're done. It is highly recommended to start by making the entire map a "land" area and then drawing the water/walls on top of that (placing towers in a spot that has no area defined crashes the game). Polygons autocomplete themselves and the newest areas are stacked on top of the older ones.
+Areas are defined by pressing F2, but first you need to tell the mod what type of area you want.
+Pressing 0 will select the type of "track" (default)
+Pressing 1 will select the type of "water"
+Pressing 2 will select the type of "land"
+Pressing 3 will select the type of "unplaceable"
+Pressing 4 will toggle whether or not the area should block line of sight.
+
+After defining the area type, press F2. Now click around to define a polygon, then press F2 again when you're done. It is highly recommended to start by making the entire map a "land" area (by clicking in all 4 corners) and then drawing the water/walls on top of that (placing towers in a spot that has no area defined crashes the game). Polygons autocomplete themselves (unless the area blocks LOS!) and the newest areas are stacked on top of the older ones.
 
 ## undoing changes
-in the map's folder you can edit or delete the paths.txt or areas.txt files to undo your recent changes or to start from scratch.
+in the map's folder you can edit or delete the paths.txt and areas.txt files to undo your recent changes or to start from scratch.
 
 ## end
 Once you are done defining your map, close the game. You can now remove the map editor mod if you want to. When you restart the game, your map will work.
 
 # How to use the map loader
 If someone sent you a zip file with a map in it, just extract it into the map_editor folder
-
-# todo
-- let it support multiple tracks and spawner types
-- make tutorial video
 
