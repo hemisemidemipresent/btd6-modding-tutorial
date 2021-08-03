@@ -61,6 +61,8 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 - Most of the mods on the Nexus no longer work and have been abandoned by their creator. Remove broken abandoned mods and search for up to date alternatives in the discord servers.
 
+- If you are using a mod that requires you to press a certain key, make sure you are actually pressing the correct key.
+
 - It is sometimes possible for 2 different mods to conflict and cause problems. Avoid using more than 6-8 mods at once.
 
 - If you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it. A few mods haven't been updated but those were mostly broken already.
