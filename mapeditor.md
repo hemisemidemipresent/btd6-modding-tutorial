@@ -1,6 +1,6 @@
 # How to use the map editor
 - Start by Extracting the zip in your Mods folder
-- go in the map_editor folder, copy the "example" folder and rename it to the name of your map
+- go in the map_editor folder, copy the "example" folder and rename it to the name of your map (don't use the name of an existing map)
 - Now go in that new folder and open info.txt, you will be able to change the name, music and difficulty (0 = beginner, 3 = expert etc)
 - Replace "image.png" with the image of your map (make sure the file keeps the same name)
 - Now launch the game and enter your map, so you can start defining what the paths and areas should be.
