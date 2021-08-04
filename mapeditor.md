@@ -3,8 +3,8 @@ Start by Extracting the zip in your Mods folder
 # How to use the map editor
 - go in the map_editor folder, copy the "example" folder and rename it to the name of your map
 - Now go in that new folder and open info.txt, you will be able to change the name, music and difficulty (0 = beginner, 3 = expert etc)
-- Add your own png file and make sure it is called "image.png"
-- Now launch the game and enter your map, you can now define what the paths and areas should be
+- Replace "image.png" with the image of your map (make sure the file keeps the same name)
+- Now launch the game and enter your map, so you can start defining what the paths and areas should be.
 
 ## defining paths
 press F1, click around, press F1 again when you're done
@@ -14,8 +14,8 @@ Areas are defined by pressing F2, but first you need to tell the mod what type o
 Pressing 0 will select the type of "track" (default)
 Pressing 1 will select the type of "water"
 Pressing 2 will select the type of "land"
-Pressing 3 will select the type of "unplaceable"
-Pressing 4 will toggle whether or not the area should block line of sight.
+Pressing 3 will select the type of "unplaceable" (there doesn't seem to be a difference between "track" and this one)
+Pressing 4 will toggle whether or not the area should block line of sight. (by default, it doesn't)
 
 After defining the area type, press F2. Now click around to define a polygon, then press F2 again when you're done. It is highly recommended to start by making the entire map a "land" area (by clicking in all 4 corners) and then drawing the water/walls on top of that (placing towers in a spot that has no area defined crashes the game). Polygons autocomplete themselves (unless the area blocks LOS!) and the newest areas are stacked on top of the older ones.
 
@@ -23,8 +23,8 @@ After defining the area type, press F2. Now click around to define a polygon, th
 in the map's folder you can edit or delete the paths.txt and areas.txt files to undo your recent changes or to start from scratch.
 
 ## end
-Once you are done defining your map, close the game. You can now remove the map editor mod if you want to. When you restart the game, your map will work.
+Once you are done defining your map, close the game. You can now remove the map editor mod if you want to, but keep the map loader. When you restart the game, your map will load and should be playable.
 
 # How to use the map loader
-If someone sent you a zip file with a map in it, just extract it into the map_editor folder
+If someone sent you a zip file with a map in it, just extract it into the map_editor folder.
 
