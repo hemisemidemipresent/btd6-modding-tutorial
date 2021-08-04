@@ -9,7 +9,7 @@
 press F1, click around, press F1 again when you're done
 
 ## defining areas
-Areas are defined by pressing F2, but first you need to tell the mod what type of area you want.
+Areas define collisions are where towers can be placed. They are defined by pressing F2, but first you need to tell the mod what type of area you want.
 - Pressing 0 will select the type of "track" (default)
 - Pressing 1 will select the type of "water"
 - Pressing 2 will select the type of "land"
