@@ -29,7 +29,7 @@ Once you are done defining your map, close the game. You can now remove the map 
 - Delete map_editor.dll
 - If someone sent you a zip file with a map in it, just extract it into the map_editor folder.
 
-#troubleshooting
+# Troubleshooting
 If you can't find your map, make sure you have these files in your mods folder:
 <img src="https://cdn.discordapp.com/attachments/872504918831939625/872526528762753044/unknown.png"/>
 
