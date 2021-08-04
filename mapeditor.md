@@ -1,6 +1,5 @@
-Start by Extracting the zip in your Mods folder
-
 # How to use the map editor
+- Start by Extracting the zip in your Mods folder
 - go in the map_editor folder, copy the "example" folder and rename it to the name of your map
 - Now go in that new folder and open info.txt, you will be able to change the name, music and difficulty (0 = beginner, 3 = expert etc)
 - Replace "image.png" with the image of your map (make sure the file keeps the same name)
@@ -26,5 +25,7 @@ in the map's folder you can edit or delete the paths.txt and areas.txt files to 
 Once you are done defining your map, close the game. You can now remove the map editor mod if you want to, but keep the map loader. When you restart the game, your map will load and should be playable.
 
 # How to use the map loader
-If someone sent you a zip file with a map in it, just extract it into the map_editor folder.
+- Extract map_editor.zip in your Mods folder
+- Delete map_editor.dll
+- If someone sent you a zip file with a map in it, just extract it into the map_editor folder.
 
