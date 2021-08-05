@@ -30,7 +30,9 @@ Once you are done defining your map, close the game. You can now remove the map 
 - If someone sent you a zip file with a map in it, just extract it into the map_editor folder.
 
 # Troubleshooting
-If you can't find your map, make sure you have these files in your mods folder:
+## If you can't find your map in the map list, make sure you have these files in your mods folder:
 <img src="https://cdn.discordapp.com/attachments/872504918831939625/872526528762753044/unknown.png"/>
+## System.IndexOutOfRangeException: Index was outside the bounds of the array.
+Check your areas.txt and paths.txt files, you probably have a path or area with no coordinates. Delete those.
 
 
