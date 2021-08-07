@@ -34,6 +34,6 @@ Once you are done defining your map, close the game. You can now remove the map 
 <img src="https://cdn.discordapp.com/attachments/872504918831939625/872526528762753044/unknown.png"/>
 
 ## System.IndexOutOfRangeException: Index was outside the bounds of the array.
-Check your areas.txt and paths.txt files, you probably have a path or area with no coordinates. Delete those.
+Check your areas.txt and paths.txt files, you probably have a path or area with no coordinates. Delete those. If that doesn't fix it, download the newest version of the mod and then edit info.txt to remove the line with the map's name.
 
 
