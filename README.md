@@ -134,7 +134,7 @@ For a better overview of how it works here is the whole thing converted to JSON 
 
 here is the JSON for each individual tower: https://cdn.discordapp.com/attachments/504783182755921930/869939786734010418/Towers.zip
 
-if you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/handkanonier/Main.cs) as a template. Creating custom towers mostly involves copying existing behaviors and pasting them together. Use the JSON above to see how towers are defined.
+if you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/handkanonier/Main.cs) as a template. Creating custom towers mostly involves copying existing behaviors and pasting them together. Use the JSON above to see how towers are defined. use this video: https://www.youtube.com/watch?v=NSINBN3em6w as a guide.
 
 if you want to modify existing towers you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/no_rng/Main.cs) as a template.
 
