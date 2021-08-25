@@ -67,6 +67,10 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 - If you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it. A few mods haven't been updated but those were mostly broken already.
 
+### No compatibility layer found
+
+Make sure you have the latest version of the mod helper and that it isn't in a zip file
+
 ### Mods that used to work before no longer work after a btd6 update
 
 Update your mods by downloading their newest versions, and update the mod helper if you haven't done so already. Some mods have been abandoned by their creator and no longer work. 
