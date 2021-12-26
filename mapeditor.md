@@ -24,6 +24,16 @@ in the map's folder you can edit or delete the paths.txt and areas.txt files to 
 ## end
 Once you are done defining your map, close the game. You can now remove the map editor mod if you want to, but keep the map loader. When you restart the game, your map will load and should be playable.
 
+## available music
+MusicBTD5JazzA
+MusicCityA
+MusicCoopA
+MusicDarkA
+MusicSailsAgain
+MusicUpbeat1A
+MusicUpbeat2A
+MusicUpbeat3A
+
 # How to use the map loader
 - Extract map_editor.zip in your Mods folder
 - Delete map_editor.dll
