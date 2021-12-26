@@ -12,7 +12,7 @@ Navigate to the BTD6 directory, which by default is located at: `C:\Program File
 
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776980387477061662/Screenshot_1315.png"/>
 
-on the melonloader window, click the install button
+on the melonloader window, click the install button (install the latest release)
 
 now launch the game to generate the "Mods" folder. if you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe). If you get an internal failure then run the game as an administrator.
 
@@ -54,41 +54,25 @@ If you rename version.dll to anything else you can temporarily disable melonload
 
 # Troubleshooting
 
-### The mods are in the Mods folder but they don't work
+## No compatibility layer found
+you need the mod helper, download the latest release here: https://github.com/gurrenm3/BTD-Mod-Helper/releases
+also make sure that it is not in a zip file.
 
-- Make sure you are using Melonloader 0.4.3 and the latest version of the mod helper
+## HarmonyLib.HarmonyException: Patching exception in method null
+the mod that's giving this error is outdated. check if there is a newer version available. if not, remove that mod (and make a bug report if the mod was from this server).
 
-- Most of the mods on the Nexus no longer work and have been abandoned by their creator. Remove broken abandoned mods and search for up to date alternatives in the discord servers.
+## missing method exception
+same as above
 
-- If you are using a mod that requires you to press a certain key, make sure you are actually pressing the correct key.
+## The mods are in the Mods folder but they don’t work
+Make sure you are using the latest version of the mod helper (check the link above). Also make sure you have no zip files in your Mods folder. If you still have problems, then send the latest.log file (say $log for instructions). Avoid using nexus mods as the vast majority of them are outdated/low quality/stolen
 
-- It is sometimes possible for 2 different mods to conflict and cause problems. Avoid using more than 6-8 mods at once.
+## The game does not open at all, or gives an MSVCP140.dll was not found error
+install this: https://aka.ms/vs/16/release/vc_redist.x64.exe
 
-- If you have nkhook in your mods folder, remove it. The mods that used to require it no longer need it. A few mods haven't been updated but those were mostly broken already.
+## Other issues
+If you can't find the solution here, then send the latest.log file in the "help requests" channel in the "BTD6 Mods and Discussions" discord (say $log for instructions)
 
-### No compatibility layer found
-
-Make sure you have the latest version of the mod helper and that it isn't in a zip file
-
-### Mods that used to work before no longer work after a btd6 update
-
-Update your mods by downloading their newest versions, and update the mod helper if you haven't done so already. Some mods have been abandoned by their creator and no longer work. 
-
-### The game does not open at all, or gives an MSVCP140.dll was not found error
-
-Download visual c++ from the official microsoft website
-
-### The mod manager crashes with a white screen
-
-Create a folder called "Mods" in the btd6 directory. If that doesn't work then simply don't use the mod manager and drag and drop the files yourself.
-
-### Assembly Generator exited with code -2
-
-Reinstall melonloader using the latest version
-
-### Other issues
-
-if you can't find the solution to your problem here, ask in the "help requests" channel in the "BTD6 Mods and Discussions" discord. Make sure to post screenshots and explanations of what you already tried and what the errors are, as well as the list of mods that you used/tried to use.
 
 # Optional mod managers
 there are 2 main mod managers: [this one](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest) and [this one](https://github.com/Inferno-Dev-Team/Inferno-Mod-Manager/releases/latest)
