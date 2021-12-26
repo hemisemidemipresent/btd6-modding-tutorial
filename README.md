@@ -16,13 +16,13 @@ on the melonloader window, click the install button (install the latest release)
 
 now launch the game to generate the "Mods" folder. if you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe). If you get an internal failure then run the game as an administrator.
 
-Now put BloonsTD6_Mod_Helper.dll in the "Mods" folder (**important**)
+Now put **BloonsTD6 Mod Helper.dll** in the "Mods" folder (**important**)
 
 If all goes well, the Mods directory should look like this:
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/870614320088764496/unknown.png"/>
 
-**IMPORTANT: BloonsTD6_Mod_Helper.dll needs to be in the Mods directory at all times, never remove or disable it**
+**IMPORTANT: BloonsTD6 Mod Helper.dll needs to be in the Mods directory at all times, never remove or disable it**
 
 ## Common Mods
 
