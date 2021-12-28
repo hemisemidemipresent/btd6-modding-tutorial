@@ -28,7 +28,7 @@ If all goes well, the Mods directory should look like this:
 
 [Fire Rate Changer](https://github.com/Timotheeee/btd6_mods/blob/master/rate_changer/rate_changer.dll) (custom speed hypersonic, press F9 to use)
 
-[Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll) (use keys 6 to 9 to change the speed)
+[Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll) (use keys 6,7,8,9 to change the speed)
 
 # Loading Mods
 
@@ -55,37 +55,41 @@ If you rename version.dll to anything else you can temporarily disable melonload
 # Troubleshooting
 
 ## No compatibility layer found
+
 you need the mod helper, download the latest release here: https://github.com/gurrenm3/BTD-Mod-Helper/releases
 also make sure that it is not in a zip file.
 
 ## HarmonyLib.HarmonyException: Patching exception in method null
+
 the mod that's giving this error is outdated. check if there is a newer version available. if not, remove that mod (and make a bug report if the mod was from this server).
 
 ## missing method exception
+
 same as above
 
 ## The mods are in the Mods folder but they don’t work
+
 Make sure you are using the latest version of the mod helper (check the link above). Also make sure you have no zip files in your Mods folder. If you still have problems, then send the latest.log file (say $log for instructions). Avoid using nexus mods as the vast majority of them are outdated/low quality/stolen
 
 ## The game does not open at all, or gives an MSVCP140.dll was not found error
+
 install this: https://aka.ms/vs/16/release/vc_redist.x64.exe
 
 ## Other issues
+
 If you can't find the solution here, then send the latest.log file in the "help requests" channel in the "BTD6 Mods and Discussions" discord (say $log for instructions)
 
-
 # Optional mod managers
+
 there are 2 main mod managers: [this one](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest) and [this one](https://github.com/Inferno-Dev-Team/Inferno-Mod-Manager/releases/latest)
 mod managers are currently unnecessary and tend to cause more problems than they solve.
-
 
 # How to make mods
 
 ## Prerequisites
 
--  [Visual Studio](https://visualstudio.microsoft.com/) (not Visual Studio code). If you are a rich person, use [Rider](https://www.jetbrains.com/rider/) because its better
-- some basic knowledge of c#, though java is close enough
-
+-   [Visual Studio](https://visualstudio.microsoft.com/) (not Visual Studio code). If you are a rich person, use [Rider](https://www.jetbrains.com/rider/) because its better
+-   some basic knowledge of c#, though java is close enough
 
 ## Tips
 
@@ -109,26 +113,27 @@ A lot of mods are open source, their code can give you an idea on how to do thin
 
 Most mods use something known as harmony patches. The can be used to run code both before and after the game's functions are called, and can also be used to modify/read parameters and return values.
 
-This mod: https://github.com/sinai-dev/UnityExplorer/releases/download/3.1.4/UnityExplorer.MelonLoader.Il2Cpp.zip makes it possible to view the unity scene.
+[UnityExplorer mod](https://github.com/sinai-dev/UnityExplorer/releases/download/3.1.4/UnityExplorer.MelonLoader.Il2Cpp.zip) makes it possible to view the unity scene.
 
-if you want to import your own 3d models into the game, you will need to create an asset bundle using the 2018 unity version, then use AssetBundle.LoadFromMemory(File.ReadAllBytes(@"bundle"))
+if you want to import your own 3d models into the game, you will need to create an asset bundle using the 2018 unity version, then use
+
+```cs
+AssetBundle.LoadFromMemory(File.ReadAllBytes(@"bundle"))
+```
 
 ## Editing the gamemodel
 
 the gamemodel defines everything from towers to bloons to difficulties.
 
-For a better overview of how it works here is the whole thing converted to JSON (without towers): https://cdn.discordapp.com/attachments/504783182755921930/869939855923236944/entiremodel.json
+For a better overview of how it works here is [the whole thing converted to JSON (without towers)](https://cdn.discordapp.com/attachments/504783182755921930/869939855923236944/entiremodel.json)
 
-here is the JSON for each individual tower: https://cdn.discordapp.com/attachments/504783182755921930/869939786734010418/Towers.zip
+here is [the JSON for each individual tower](https://cdn.discordapp.com/attachments/504783182755921930/869939786734010418/Towers.zip)
 
-if you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/handkanonier/Main.cs) as a template. Creating custom towers mostly involves copying existing behaviors and pasting them together. Use the JSON above to see how towers are defined. use this video: https://www.youtube.com/watch?v=NSINBN3em6w as a guide.
+if you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/handkanonier/Main.cs) as a template. Creating custom towers mostly involves copying existing behaviors and pasting them together. Use the JSON above to see how towers are defined. use [this video](https://www.youtube.com/watch?v=NSINBN3em6w) as a guide.
 
 if you want to modify existing towers you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/no_rng/Main.cs) as a template.
 
-
-## How to install mods on Linux
-
-https://gist.github.com/BowDown097/1f35312036c347c40c400f362ac780fd
+## [How to install mods on Linux](https://gist.github.com/BowDown097/1f35312036c347c40c400f362ac780fd)
 
 # Credits
 
