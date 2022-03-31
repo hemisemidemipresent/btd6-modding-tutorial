@@ -134,7 +134,8 @@ if you want to create a custom tower you can use [this](https://github.com/Timot
 
 if you want to modify existing towers you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/no_rng/Main.cs) as a template.
 
-## [How to install mods on Linux](https://gist.github.com/BowDown097/1f35312036c347c40c400f362ac780fd)
+## [How to install mods on Linux]
+Install MelonLoader with [this guide.](https://melonwiki.xyz/#/?id=linux-instructions) Make sure you put Mod Helper in the Mods folder.
 
 # Credits
 
