@@ -1,6 +1,6 @@
 # Downloads and Installation
 
-Download [The mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/BloonsTD6.Mod.Helper.zip) (make sure to **EXTRACT IT** after downloading) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe).
+Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/BloonsTD6.Mod.Helper.zip) (make sure to **EXTRACT IT** after downloading) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe).
 
 Run the **melonloader** installer. You should see this screen
 
@@ -18,13 +18,13 @@ Now launch the game to generate the "Mods" folder.
 If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe). 
 If you get an error like "Access to the path '...' is denied" then run turn off your antivirus, reinstall melonloader and run the game as administrator.
 
-Now put **BloonsTD6 Mod Helper.dll** in the "Mods" folder (**important**)
+Now put **`BloonsTD6 Mod Helper.dll`** in the "Mods" folder (**important**)
 
 If all goes well, the Mods directory should look like this:
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/870614320088764496/unknown.png"/>
 
-**IMPORTANT: BloonsTD6 Mod Helper.dll needs to be in the Mods directory at all times, never remove or disable it**
+**IMPORTANT: `BloonsTD6 Mod Helper.dll` needs to be in the Mods directory at all times, never remove or disable it**
 
 ## Common Mods
 
@@ -41,7 +41,7 @@ You can get mods from these discord servers:
 [Inferno Server](https://discord.gg/cqRqrvjv68) : Where Tewtiy gets his mods (note that most of them aren't public)
 
 1. if the mod comes in a zip file, extract it
-2. put the mod's `.dll` in the "Mods" directory
+2. put the mod's `.dll` in the `Mods` directory
 3. make sure that there are no zip files or duplicate mods in the `Mods` directory
 
 To disable some mods, you can manually move the files to another directory.
@@ -56,14 +56,14 @@ Using the speedhack in singleplayer is usually fine, unless you abuse it to grin
 
 ## How to disable mods
 
-Move `version.dll`, the `Melonloader` folder and the `Mods` folder **entirely out of the BTD6 directory**. (put them in a folder on your desktop for example) 
+Move `version.dll`, the `Melonloader` folder and the `Mods` folder **entirely out of the BTD6 directory** (put them in a folder on your Desktop for example). 
 
 # Troubleshooting
 
 ## No compatibility layer found
 
-you need the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases](https://github.com/gurrenm3/BTD-Mod-Helper/releases)
-also make sure that it is not in a zip file.
+You need to download the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases](https://github.com/gurrenm3/BTD-Mod-Helper/releases)
+Also make sure that it is not in a zip file.
 
 ## HarmonyLib.HarmonyException: Patching exception in method null
 
@@ -78,7 +78,7 @@ Same as above
 ## The mods are in the Mods folder but they don’t work
 
 Make sure you are using the latest version of the mod helper (check the link above). Also make sure you have no zip files in your Mods folder. 
-If you still have problems, then send the latest.log file (say $log for instructions). 
+If you still have problems, then send the `latest.log` file (type in the chat `$log` in the discord for instructions). 
 Avoid using nexus mods as the vast majority of them are outdated/low quality/stolen.
 
 ## The game does not open at all, or gives an MSVCP140.dll was not found error
@@ -87,7 +87,7 @@ Install this: [https://aka.ms/vs/16/release/vc_redist.x64.exe](https://aka.ms/vs
 
 ## Other issues
 
-If you can't find the solution here, then send the latest.log file in the "help requests" channel in the "BTD6 Mods and Discussions" discord (say `$log` for instructions)
+If you can't find the solution here, then send the `latest.log` file in the ["help requests"](https://discord.com/channels/504782676331331584/504783182755921930) channel in the ["BTD6 Mods and Discussions" discord](https://discord.gg/hENWNsd5pY) (type in the chat `$log` for instructions).
 
 # Optional mod managers
 
@@ -109,7 +109,7 @@ Mods usually reference Melonloader.dll, the mod helper and most of the files in 
 
 The [Mod helper wiki](https://github.com/gurrenm3/BTD-Mod-Helper/wiki) has a bunch of useful documentation.
 
-these 3 objects have a ton of useful stuff, use visual studio or decompilers to see what's available:
+These 3 objects have a ton of useful stuff, use visual studio or decompilers to see what's available:
 
 `InGame.instance`
 
@@ -117,7 +117,7 @@ these 3 objects have a ton of useful stuff, use visual studio or decompilers to 
 
 `Game.instance`
 
-you can use [dnSpy](https://github.com/dnSpy/dnSpy/releases/tag/v6.1.8) (recomended) or [dotPeek](https://www.jetbrains.com/decompiler/) on `Assembly-CSharp.dll` to see (most) of the games functions/methods/classes.
+You can use [dnSpy](https://github.com/dnSpy/dnSpy/releases/tag/v6.1.8) (recomended) or [dotPeek](https://www.jetbrains.com/decompiler/) on `Assembly-CSharp.dll` to see (most) of the games functions/methods/classes.
 
 A lot of mods are open source, their code can give you an idea on how to do things.
 
@@ -125,7 +125,7 @@ Most mods use something known as harmony patches. The can be used to run code bo
 
 [UnityExplorer mod](https://github.com/sinai-dev/UnityExplorer/releases/download/3.1.4/UnityExplorer.MelonLoader.Il2Cpp.zip) makes it possible to view the unity scene.
 
-if you want to import your own 3d models into the game, you will need to create an asset bundle using the 2018 unity version, then use
+If you want to import your own 3D models into the game, you will need to create an asset bundle using the 2018 unity version, then use
 
 ```cs
 AssetBundle.LoadFromMemory(File.ReadAllBytes(@"bundle"))
