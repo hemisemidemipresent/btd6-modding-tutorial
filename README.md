@@ -1,6 +1,6 @@
 # Downloads and Installation
 
-download [The mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/BloonsTD6.Mod.Helper.zip) (make sure to **EXTRACT IT** after downloading) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe).
+Download [The mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/BloonsTD6.Mod.Helper.zip) (make sure to **EXTRACT IT** after downloading) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe).
 
 Run the **melonloader** installer. You should see this screen
 
@@ -12,9 +12,11 @@ Navigate to the BTD6 directory, which by default is located at: `C:\Program File
 
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776980387477061662/Screenshot_1315.png"/>
 
-on the melonloader window, click the install button (install the latest release)
+On the melonloader window, click the install button (install the latest release)
 
-now launch the game to generate the "Mods" folder. if you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe). If you get an error like "Access to the path '...' is denied" then run turn off your antivirus, reinstall melonloader and run the game as administrator.
+Now launch the game to generate the "Mods" folder. 
+If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe). 
+If you get an error like "Access to the path '...' is denied" then run turn off your antivirus, reinstall melonloader and run the game as administrator.
 
 Now put **BloonsTD6 Mod Helper.dll** in the "Mods" folder (**important**)
 
@@ -40,57 +42,64 @@ You can get mods from these discord servers:
 
 1. if the mod comes in a zip file, extract it
 2. put the mod's `.dll` in the "Mods" directory
-3. make sure that there are no zip files or duplicate mods in the "Mods" directory
+3. make sure that there are no zip files or duplicate mods in the `Mods` directory
 
-to disable some mods, you can manually move the files to another directory.
+To disable some mods, you can manually move the files to another directory.
 
 ## Hacker pool
 
-By default the game doesn't let you access public coop, races, collection events, the trophy store and odyssey if you are using mods, to prevent cheating. Using mods that give your account an advantage such as infinite money/xp/trophies/knowledge mods will get your account flagged. To protect your account, setup a Windows virtual machine and use a second Steam account to play mods (can also be done without a virtual machine but it's pretty annoying to switch between accounts). If you are flagged, you will have 2 leaves above your settings icon and you will no longer be able to play public coop games or submit race times. Using the speedhack in singleplayer is usually fine, unless you abuse it to grind monkey money faster and then get a top 50 time in a race.
+By default the game doesn't let you access public coop, races, collection events, the trophy store and odyssey if you are using mods (to prevent cheating). 
+Using mods that give your account an advantage such as infinite money/xp/trophies/knowledge mods will get your account flagged. 
+To protect your account, setup a Windows virtual machine and use a second Steam account to play mods (can also be done without a virtual machine but it's pretty annoying to switch between accounts). 
+If you are flagged, you will have 2 leaves above your settings icon and you will no longer be able to play public coop games or submit race times. 
+Using the speedhack in singleplayer is usually fine, unless you abuse it to grind monkey money faster and then get a top 50 time in a race.
 
 ## How to disable mods
 
-Move "version.dll", the "Melonloader" folder and the "Mods" folder entirely out of the BTD6 directory. (put them in a folder on your desktop for example) 
-
+Move `version.dll`, the `Melonloader` folder and the `Mods` folder **entirely out of the BTD6 directory**. (put them in a folder on your desktop for example) 
 
 # Troubleshooting
 
 ## No compatibility layer found
 
-you need the mod helper, download the latest release here: https://github.com/gurrenm3/BTD-Mod-Helper/releases
+you need the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases](https://github.com/gurrenm3/BTD-Mod-Helper/releases)
 also make sure that it is not in a zip file.
 
 ## HarmonyLib.HarmonyException: Patching exception in method null
 
-the mod that's giving this error is outdated. check if there is a newer version available. if not, remove that mod (and make a bug report if the mod was from this server).
+The mod that's giving this error is outdated. 
+Check if there is a newer version available. 
+If not, remove that mod (and make a bug report if the mod was from this server).
 
 ## missing method exception
 
-same as above
+Same as above
 
 ## The mods are in the Mods folder but they don’t work
 
-Make sure you are using the latest version of the mod helper (check the link above). Also make sure you have no zip files in your Mods folder. If you still have problems, then send the latest.log file (say $log for instructions). Avoid using nexus mods as the vast majority of them are outdated/low quality/stolen
+Make sure you are using the latest version of the mod helper (check the link above). Also make sure you have no zip files in your Mods folder. 
+If you still have problems, then send the latest.log file (say $log for instructions). 
+Avoid using nexus mods as the vast majority of them are outdated/low quality/stolen.
 
 ## The game does not open at all, or gives an MSVCP140.dll was not found error
 
-install this: https://aka.ms/vs/16/release/vc_redist.x64.exe
+Install this: [https://aka.ms/vs/16/release/vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
 ## Other issues
 
-If you can't find the solution here, then send the latest.log file in the "help requests" channel in the "BTD6 Mods and Discussions" discord (say $log for instructions)
+If you can't find the solution here, then send the latest.log file in the "help requests" channel in the "BTD6 Mods and Discussions" discord (say `$log` for instructions)
 
 # Optional mod managers
 
-there are 2 main mod managers: [this one](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest) and [this one](https://github.com/Inferno-Dev-Team/Inferno-Mod-Manager/releases/latest)
-mod managers are currently unnecessary and tend to cause more problems than they solve.
+There are 2 main mod managers: [this one](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest) and [this one](https://github.com/Inferno-Dev-Team/Inferno-Mod-Manager/releases/latest)
+Mod managers are currently unnecessary and tend to cause more problems than they solve.
 
 # How to make mods
 
 ## Prerequisites
 
 -   [Visual Studio](https://visualstudio.microsoft.com/) (not Visual Studio code). If you are a rich person, use [Rider](https://www.jetbrains.com/rider/) because its better
--   some basic knowledge of c#, though java is close enough
+-   Some basic knowledge of [c#](https://docs.microsoft.com/en-us/dotnet/csharp/), though if you already know Java, it is close enough
 
 ## Tips
 
@@ -124,23 +133,23 @@ AssetBundle.LoadFromMemory(File.ReadAllBytes(@"bundle"))
 
 ## Editing the gamemodel
 
-the gamemodel defines everything from towers to bloons to difficulties.
+The gamemodel defines everything from towers to bloons to difficulties.
 
 For a better overview of how it works here is [the whole thing converted to JSON (without towers)](https://cdn.discordapp.com/attachments/504783182755921930/869939855923236944/entiremodel.json)
 
-here is [the JSON for each individual tower](https://cdn.discordapp.com/attachments/504783182755921930/869939786734010418/Towers.zip)
+[Here](https://cdn.discordapp.com/attachments/504783182755921930/869939786734010418/Towers.zip) is the JSON for each individual tower
 
-if you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/handkanonier/Main.cs) as a template. Creating custom towers mostly involves copying existing behaviors and pasting them together. Use the JSON above to see how towers are defined. use [this video](https://www.youtube.com/watch?v=NSINBN3em6w) as a guide.
+If you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/handkanonier/Main.cs) as a template. Creating custom towers mostly involves copying existing behaviors and pasting them together. Use the JSON above to see how towers are defined. Use [this video](https://www.youtube.com/watch?v=NSINBN3em6w) as a guide.
 
-if you want to modify existing towers you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/no_rng/Main.cs) as a template.
+If you want to modify existing towers you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/no_rng/Main.cs) as a template.
 
 ## [How to install mods on Linux]
-Install MelonLoader with [this guide.](https://melonwiki.xyz/#/?id=linux-instructions) Make sure you put Mod Helper in the Mods folder.
+Install MelonLoader with [this guide](https://melonwiki.xyz/#/?id=linux-instructions). Make sure you put Mod Helper in the Mods folder.
 
 # Credits
 
-hosted by: [hemidemisemipresent](https://github.com/hemisemidemipresent)
+Hosted by: [hemidemisemipresent](https://github.com/hemisemidemipresent)
 
-maintained by: [hemidemisemipresent](https://github.com/hemisemidemipresent) and [Timotheeee](https://github.com/Timotheeee/btd6_mods)
+Maintained by: [hemidemisemipresent](https://github.com/hemisemidemipresent) and [Timotheeee](https://github.com/Timotheeee/btd6_mods)
 
 If you want to change something here, contact `hemidemisemipresent#0301` / `Timotheeee1#0538` on discord or [create a fork and make a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) on the [github repo](https://github.com/hemisemidemipresent/btd6-modding-tutorial)
