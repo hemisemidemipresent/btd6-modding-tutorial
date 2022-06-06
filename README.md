@@ -24,7 +24,7 @@ If all goes well, the Mods directory should look like this:
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/870614320088764496/unknown.png"/>
 
-**IMPORTANT: `BloonsTD6 Mod Helper.dll` needs to be in the Mods directory at all times, never remove or disable it. If you don't have the mod helper, the game will not save progress**
+**IMPORTANT: `BloonsTD6 Mod Helper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
 
 ## Common Mods
 
@@ -39,6 +39,8 @@ You can get mods from these discord servers:
 [BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY) : Most public mods are here
 
 [Inferno Server](https://discord.gg/cqRqrvjv68) : Where Tewtiy gets his mods (note that most of them aren't public)
+
+Avoid using Nexus mods as the vast majority of them are outdated/stolen.
 
 1. if the mod comes in a zip file, extract it
 2. put the mod's `.dll` in the `Mods` directory
