@@ -24,7 +24,7 @@ If all goes well, the Mods directory should look like this:
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/870614320088764496/unknown.png"/>
 
-**IMPORTANT: `BloonsTD6 Mod Helper.dll` needs to be in the Mods directory at all times, never remove or disable it**
+**IMPORTANT: `BloonsTD6 Mod Helper.dll` needs to be in the Mods directory at all times, never remove or disable it. If you don't have the mod helper, the game will not save progress**
 
 ## Common Mods
 
