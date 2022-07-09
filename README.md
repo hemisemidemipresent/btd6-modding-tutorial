@@ -62,39 +62,20 @@ Move `version.dll`, the `Melonloader` folder and the `Mods` folder **entirely ou
 
 # Troubleshooting
 
-## No compatibility layer found
+## The console says "No compatibility layer found"
 
-You need to download the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases](https://github.com/gurrenm3/BTD-Mod-Helper/releases)
-Also make sure that it is not in a zip file.
-
-## HarmonyLib.HarmonyException: Patching exception in method null
-
-The mod that's giving this error is outdated. 
-Check if there is a newer version available. 
-If not, remove that mod (and make a bug report if the mod was from this server).
-
-## missing method exception
-
-Same as above
+You need to download the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/BloonsTD6.Mod.Helper.zip](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/BloonsTD6.Mod.Helper.zip)
+also make sure that it is **not in a zip file** and **not in a folder**. It should be a dll file directly inside of the "Mods" folder.
 
 ## The mods are in the Mods folder but they don’t work
 
-Make sure you are using the latest version of the mod helper (check the link above). Also make sure you have no zip files in your Mods folder. 
-If you still have problems, then send the `latest.log` file (type in the chat `$log` in the discord for instructions). 
-Avoid using nexus mods as the vast majority of them are outdated/low quality/stolen.
+Make sure you are using the latest version of the mod helper (check the link above). Make sure your mods are in the dll format directly inside of the "Mods" folder. They should not be in a zip. Game updates sometimes break mods and not all mod developers update their mods. Avoid using nexus mods as the vast majority of them are outdated/low quality/stolen.
+If you still have problems, join one of the 2 discord servers above and then send the `latest.log` located in the **Melonloader** folder in the help channel. 
 
 ## The game does not open at all, or gives an MSVCP140.dll was not found error
 
 Install this: [https://aka.ms/vs/16/release/vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 
-## Other issues
-
-If you can't find the solution here, then send the `latest.log` file in the ["help requests"](https://discord.com/channels/504782676331331584/504783182755921930) channel in the ["BTD6 Mods and Discussions" discord](https://discord.gg/hENWNsd5pY) (type in the chat `$log` for instructions).
-
-# Optional mod managers
-
-There are 2 main mod managers: [this one](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest) and [this one](https://github.com/Inferno-Dev-Team/Inferno-Mod-Manager/releases/latest)
-Mod managers are currently unnecessary and tend to cause more problems than they solve.
 
 # How to make mods
 
