@@ -26,11 +26,13 @@ If all goes well, the Mods directory should look like this:
 
 **IMPORTANT: `BloonsTD6 Mod Helper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
 
+
 ## Common Mods
 
 [Fire Rate Changer](https://github.com/Timotheeee/btd6_mods/blob/master/rate_changer/rate_changer.dll) (custom speed hypersonic, press F9 to use)
 
 [Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll) (use keys 6,7,8,9 to change the speed)
+
 
 # Loading Mods
 
@@ -60,6 +62,9 @@ Using the speedhack in singleplayer is usually fine, unless you abuse it to grin
 
 Move `version.dll`, the `Melonloader` folder and the `Mods` folder **entirely out of the BTD6 directory** (put them in a folder on your Desktop for example). 
 
+
+
+
 # Troubleshooting
 
 ## The console says "No compatibility layer found"
@@ -75,6 +80,10 @@ If you still have problems, join one of the 2 discord servers above and then sen
 ## The game does not open at all, or gives an MSVCP140.dll was not found error
 
 Install this: [https://aka.ms/vs/16/release/vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe)
+
+
+
+
 
 
 # How to make mods
