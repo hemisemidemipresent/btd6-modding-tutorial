@@ -55,7 +55,7 @@ To disable some mods, you can manually move the files to another directory.
 By default the game doesn't let you access public coop, races, collection events, the trophy store and odyssey if you are using mods (to prevent cheating). 
 Using mods that give your account an advantage such as infinite money/xp/trophies/knowledge mods will get your account flagged. 
 To protect your account, setup a Windows virtual machine and use a second Steam account to play mods (can also be done without a virtual machine but it's pretty annoying to switch between accounts). 
-If you are flagged, you will have 2 leaves above your settings icon and you will no longer be able to play public coop games or submit race times. 
+If you are flagged, you will have 2 leaves above your settings icon and you will no longer be able to play public coop games, play contested territory or submit race times. 
 Using the speedhack in singleplayer is usually fine, unless you abuse it to grind monkey money faster and then get a top 50 time in a race.
 
 ## How to disable mods
