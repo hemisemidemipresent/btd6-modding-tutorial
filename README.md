@@ -71,7 +71,7 @@ Move `version.dll`, the `Melonloader` folder and the `Mods` folder **entirely ou
 
 ## The console says "No compatibility layer found"
 
-You need to download the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/BloonsTD6.Mod.Helper.zip](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/BloonsTD6.Mod.Helper.zip)
+You need to download the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll)
 also make sure that it is **not in a zip file** and **not in a folder**. It should be a dll file directly inside of the "Mods" folder.
 
 ## The mods are in the Mods folder but they don’t work
