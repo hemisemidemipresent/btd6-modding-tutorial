@@ -1,30 +1,32 @@
 # Downloads and Installation
 
-Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/BloonsTD6.Mod.Helper.zip) (make sure to **EXTRACT IT** after downloading) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe).
+Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) and [MelonLoader](https://nightly.link/LavaGang/MelonLoader/workflows/build/alpha-development/MelonLoader.x64.CI.Release.zip).
 
-Run the **melonloader** installer. You should see this screen
+Open the Melonloader zip you just downloaded
 
-<img src="https://cdn.discordapp.com/attachments/761529691491270656/870680857940209694/unknown.png"/>
+<img src="https://cdn.discordapp.com/attachments/859064232262762497/1008075962392518676/unknown.png"/>
 
-Click the "select" button.
+Select all of the files in the zip and copy them
 
-Navigate to the BTD6 directory, which by default is located at: `C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6` and click on `BloonsTD6.exe`, then click open:
+<img src="https://cdn.discordapp.com/attachments/859064232262762497/1008076066704863352/unknown.png"/>
 
-<img src="https://cdn.discordapp.com/attachments/699781597515481159/776980387477061662/Screenshot_1315.png"/>
+Navigate to the BTD6 directory, which by default is located at: `C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6`
 
-On the melonloader window, click the install button (install the latest release)
+Paste the files from the zip into the BTD6 directory
+
+<img src="https://cdn.discordapp.com/attachments/859064232262762497/1008077119429021716/unknown.png"/>
 
 Now launch the game to generate the "Mods" folder. 
 If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe). 
 If you get an error like "Access to the path '...' is denied" then run turn off your antivirus, reinstall melonloader and run the game as administrator.
 
-Now put **`BloonsTD6 Mod Helper.dll`** in the "Mods" folder (**important**)
+Now put **`Btd6ModHelper.dll`** in the "Mods" folder (**important**)
 
 If all goes well, the Mods directory should look like this:
 
-<img src="https://cdn.discordapp.com/attachments/761529691491270656/870614320088764496/unknown.png"/>
+<img src="https://cdn.discordapp.com/attachments/859064232262762497/1008077519242657822/unknown.png"/>
 
-**IMPORTANT: `BloonsTD6 Mod Helper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
+**IMPORTANT: `Btd6ModHelper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
 
 
 ## Common Mods
@@ -69,7 +71,7 @@ Move `version.dll`, the `Melonloader` folder and the `Mods` folder **entirely ou
 
 ## The console says "No compatibility layer found"
 
-You need to download the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/BloonsTD6.Mod.Helper.zip](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/BloonsTD6.Mod.Helper.zip)
+You need to download the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll)
 also make sure that it is **not in a zip file** and **not in a folder**. It should be a dll file directly inside of the "Mods" folder.
 
 ## The mods are in the Mods folder but they don’t work
