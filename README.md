@@ -1,7 +1,6 @@
 # Downloads and Installation
 
 Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) and [MelonLoader](https://nightly.link/LavaGang/MelonLoader/workflows/build/alpha-development/MelonLoader.x64.CI.Release.zip).
-If you don't have a github account, you can get Melonloader from this [mirror](https://cdn.discordapp.com/attachments/504791576569184287/1010236445199437944/MelonLoader.x64.CI.Release.zip)
 
 Open the Melonloader zip you just downloaded
 
