@@ -92,7 +92,7 @@ Install this: [https://aka.ms/vs/16/release/vc_redist.x64.exe](https://aka.ms/vs
 
 ## Prerequisites
 
--   [Visual Studio](https://visualstudio.microsoft.com/) (not Visual Studio code). If you are a rich person, use [Rider](https://www.jetbrains.com/rider/) because its better
+-   [Visual Studio](https://visualstudio.microsoft.com/) (not Visual Studio code)
 -   Some basic knowledge of [c#](https://docs.microsoft.com/en-us/dotnet/csharp/), though if you already know Java, it is close enough
 
 ## Tips
