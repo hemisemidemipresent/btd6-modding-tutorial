@@ -19,6 +19,7 @@ Paste the files from the zip into the BTD6 directory
 Now launch the game to generate the "Mods" folder. 
 If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe). 
 If you get an error like "Access to the path '...' is denied" then run turn off your antivirus, reinstall melonloader and run the game as administrator.
+If you get a "no support module loaded" error then try again with [these files](https://cdn.discordapp.com/attachments/504783182755921930/1018612360593809590/MelonLoader.zip)
 
 Now put **`Btd6ModHelper.dll`** in the "Mods" folder (**important**)
 
