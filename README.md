@@ -1,6 +1,6 @@
 # Downloads and Installation
 
-Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/BloonsTD6.Mod.Helper.zip) (make sure to **EXTRACT IT** after downloading) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe).
+Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) (make sure to **EXTRACT IT** after downloading) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe).
 
 Run the **melonloader** installer. You should see this screen
 
@@ -24,7 +24,7 @@ If all goes well, the Mods directory should look like this:
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/870614320088764496/unknown.png"/>
 
-**IMPORTANT: `BloonsTD6 Mod Helper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
+**IMPORTANT: `Btd6ModHelper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
 
 
 ## Common Mods
