@@ -22,7 +22,7 @@ Now put **`Btd6ModHelper.dll`** in the "Mods" folder (**important**)
 
 If all goes well, the Mods directory should look like this:
 
-<img src="https://cdn.discordapp.com/attachments/761529691491270656/870614320088764496/unknown.png"/>
+<img src="https://cdn.discordapp.com/attachments/859064232262762497/1008077519242657822/unknown.png"/>
 
 **IMPORTANT: `Btd6ModHelper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
 
