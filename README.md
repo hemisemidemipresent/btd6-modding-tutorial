@@ -17,6 +17,7 @@ Click the "select" button.
 Navigate to the BTD6 directory, which by default is located at: `C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6` and click on `BloonsTD6.exe`, then click open:
 
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776980387477061662/Screenshot_1315.png"/>
+Note: If you are trying to mod the Epic Games version of the game, you will also need [this](https://github.com/Baydock/BTD6EpicGamesModCompat/#how-to-use)
 
 On the melonloader window, click the install button (install the latest release)
 
