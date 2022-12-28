@@ -1,10 +1,16 @@
 # Downloads and Installation
 
-Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) (make sure to **EXTRACT IT** after downloading) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe).
+Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe).
 
 Run the **melonloader** installer. You should see this screen
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/870680857940209694/unknown.png"/>
+
+Go to the "Settings" tab on the right of the installer. Enable the "Show ALPHA Pre-Releases" option.
+
+<img src="https://cdn.discordapp.com/attachments/859064232262762497/1057496273906839632/image.png"/>
+
+Go back to the "Automated" tab on the left of the installer.
 
 Click the "select" button.
 
