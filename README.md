@@ -73,6 +73,10 @@ Move `version.dll`, the `Melonloader` folder and the `Mods` folder **entirely ou
 
 # Troubleshooting
 
+## The console says "il2cpp_init detour failed: One of the dependant libraries is missing"
+
+You need to install the .Net 6 Runtime [https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer)
+
 ## The console says "No compatibility layer found"
 
 You need to download the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll)
