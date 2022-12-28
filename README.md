@@ -21,7 +21,8 @@ Navigate to the BTD6 directory, which by default is located at: `C:\Program File
 On the melonloader window, click the install button (install the latest release)
 
 Now launch the game to generate the "Mods" folder. 
-If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe). 
+If you get the il2cpp_init error, install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) (if you don't know which one to get, get the x64 one for windows)
+If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe) and then restart your pc. 
 If you get an error like "Access to the path '...' is denied" then run turn off your antivirus, reinstall melonloader and run the game as administrator.
 
 Now put **`Btd6ModHelper.dll`** in the "Mods" folder (**important**)
