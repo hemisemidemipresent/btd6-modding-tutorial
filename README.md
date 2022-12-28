@@ -17,16 +17,17 @@ Click the "select" button.
 Navigate to the BTD6 directory, which by default is located at: `C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6` and click on `BloonsTD6.exe`, then click open:
 
 <img src="https://cdn.discordapp.com/attachments/699781597515481159/776980387477061662/Screenshot_1315.png"/>
-Note: If you are trying to mod the Epic Games version of the game, you will also need [this](https://github.com/Baydock/BTD6EpicGamesModCompat/#how-to-use)
 
-On the melonloader window, click the install button (install the latest release)
+Note: If you are trying to mod the Epic Games version of the game, you will also need to follow [this guide](https://github.com/Baydock/BTD6EpicGamesModCompat) at the end.
+
+On the melonloader window, click the install button
 
 Now launch the game to generate the "Mods" folder. 
 If you get the il2cpp_init error, install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) (if you don't know which one to get, get the x64 one for windows)
 If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe) and then restart your pc. 
 If you get an error like "Access to the path '...' is denied" then run turn off your antivirus, reinstall melonloader and run the game as administrator.
 
-Now put **`Btd6ModHelper.dll`** in the "Mods" folder (**important**)
+Now put **`Btd6ModHelper.dll`** in the "Mods" folder
 
 If all goes well, the Mods directory should look like this:
 
@@ -43,6 +44,8 @@ If all goes well, the Mods directory should look like this:
 
 
 # Loading Mods
+
+**Important**: every mod that was last updated before december 26th 2022 will not work because of some changes with melonloader
 
 You can get mods from these discord servers:
 
