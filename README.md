@@ -45,11 +45,13 @@ If all goes well, the Mods directory should look like this:
 [Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll) (use keys 6,7,8,9 to change the speed)
 
 
-# Loading Mods
+# Obtaining Mods
 
 **Important**: every mod that was last updated before december 26th 2022 will not work because of some changes with melonloader
 
-You can get mods from these discord servers:
+The mod helper adds a new button to the bottom right of the main menu which allows you to access the mod browser, where you can find a bunch of mods as well as mod repositories.
+
+You can also get mods from these discord servers:
 
 [BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY) : Most public mods are here
 
