@@ -6,7 +6,7 @@
 - Now launch the game and enter your map, so you can start defining what the paths and areas should be.
 
 ## defining paths
-press F1, click around, press F1 again when you're done
+press F1, click around, press F1 again when you're done. You can define multiple tracks. Before moving on, make sure you pressed F1 to finish up the last track you made.
 
 ## defining areas
 Areas define collisions and where towers can be placed. They are defined by pressing F2, but first you need to tell the mod what type of area you want.
