@@ -24,7 +24,8 @@ Note: If you are trying to mod the Epic Games version of the game, you will also
 
 Now launch the game to generate the "Mods" folder. 
 
-If you get the **il2cpp_init** error, install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) (if you don't know which one to get, get the x64 one for windows)
+If you get the **il2cpp_init** error, install [.NET 6.0](
+https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer)
 
 If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe) and then restart your pc. 
 
