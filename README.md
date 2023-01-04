@@ -78,9 +78,13 @@ Move `version.dll`, the `Melonloader` folder and the `Mods` folder **entirely ou
 
 # Troubleshooting
 
-## The console says "il2cpp_init detour failed: One of the dependant libraries is missing"
+## The console or a popup window says "il2cpp_init detour failed: One of the dependant libraries is missing"
 
 You need to install the .Net 6 Runtime [https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer)
+
+## The console or a popup window says "il2cpp_init detour failed: It was not possible to find a compatible framework version."
+
+You installed the wrong .Net. Get this one [https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer)
 
 ## The console says "No compatibility layer found"
 
