@@ -6,7 +6,7 @@ Melonloader requires [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotn
 
 Run the **melonloader** installer. You should see this screen
 
-<img src="https://cdn.discordapp.com/attachments/761529691491270656/870680857940209694/unknown.png"/>
+<img src="https://cdn.discordapp.com/attachments/500665135711387680/1060234810158764122/image.png"/>
 
 Go to the "Settings" tab on the right of the installer. Enable the "Show ALPHA Pre-Releases" option.
 
