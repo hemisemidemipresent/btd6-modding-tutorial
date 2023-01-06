@@ -34,6 +34,9 @@ If you are using the Epic Games version of the game, you will also need to follo
 
 Now launch the game to see if it works. If you get the **il2cpp_init** error, install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe) and then restart your pc. 
 
+## How to uninstall mods
+
+delete the melonloader, mods, plugins, userdata, userlibs folders as well as dobby.dll, notice.txt and version.dll
 
 ## Common Mods
 
@@ -70,12 +73,6 @@ To protect your account, setup a Windows virtual machine and use a second Steam 
 If you are flagged, you will have 2 leaves above your settings icon and you will no longer be able to play public coop games, play contested territory or submit race times. 
 Using the speedhack in singleplayer is usually fine, unless you abuse it to grind monkey money faster and then get a top 50 time in a race. 
 Using mods in private coop is risky, it is best to use an account that you don't care about and also make sure that every player is using the same mods with the same configurations. If you do get flagged, you will still be able to play private coop.
-
-## How to disable mods
-
-Move `version.dll`, the `Melonloader` folder and the `Mods` folder **entirely out of the BTD6 directory** (put them in a folder on your Desktop for example). 
-
-
 
 
 # Troubleshooting
