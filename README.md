@@ -34,7 +34,7 @@ If you are using the Epic Games version of the game, you will also need to follo
 
 Now launch the game to see if it works. If you get the **il2cpp_init** error, install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe) and then restart your pc. 
 
-## How to uninstall mods
+## How to uninstall Melonloader
 
 delete the melonloader, mods, plugins, userdata, userlibs folders as well as dobby.dll, notice.txt and version.dll
 
