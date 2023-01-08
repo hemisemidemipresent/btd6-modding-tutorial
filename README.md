@@ -87,6 +87,10 @@ You need to install the .Net 6 Runtime [https://dotnet.microsoft.com/en-us/downl
 
 You installed the wrong .Net. Get this one [https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer)
 
+## A popup window says "failed to initialize: failed to find bootstrap"
+
+You didn't uninstall melonloader correctly. you need to delete the melonloader, mods, plugins, userdata, userlibs folders as well as dobby.dll, notice.txt and version.dll
+
 ## The console says "No compatibility layer found"
 
 You need to download the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll)
