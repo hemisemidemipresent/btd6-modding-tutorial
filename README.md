@@ -30,6 +30,8 @@ If all goes well, the Mods directory should look like this:
 
 **IMPORTANT: `Btd6ModHelper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
 
+Install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer) if you haven't already. The game will crash on launch if you don't have it.
+
 If you are using the Epic Games version of the game, you will also need to follow [this guide](https://github.com/Baydock/BTD6EpicGamesModCompat) or the game will crash on launch.
 
 Now launch the game to see if it works. If you get the **il2cpp_init** error, install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe) and then restart your pc. 
