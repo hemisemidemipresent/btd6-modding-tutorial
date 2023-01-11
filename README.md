@@ -139,9 +139,9 @@ A lot of mods are open source, their code can give you an idea on how to do thin
 
 Most mods use something known as harmony patches. The can be used to run code both before and after the game's functions are called, and can also be used to modify/read parameters and return values.
 
-[UnityExplorer mod](https://github.com/sinai-dev/UnityExplorer/releases/download/3.1.4/UnityExplorer.MelonLoader.Il2Cpp.zip) makes it possible to view the unity scene.
+[UnityExplorer mod](https://github.com/Baydock/UnityExplorer-NewML/releases/latest) makes it possible to view the unity scene.
 
-If you want to import your own 3D models into the game, you will need to create an asset bundle using the 2018 unity version, then use
+If you want to import your own 3D models into the game, you will need to create an asset bundle using the unity version the game uses, check your melonloader log or console to see this, then use
 
 ```cs
 AssetBundle.LoadFromMemory(File.ReadAllBytes(@"bundle"))
