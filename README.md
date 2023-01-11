@@ -166,6 +166,6 @@ Install MelonLoader with [this guide](https://melonwiki.xyz/#/?id=linux-instruct
 
 Hosted by: [hemidemisemipresent](https://github.com/hemisemidemipresent)
 
-Maintained by: [hemidemisemipresent](https://github.com/hemisemidemipresent) and [Timotheeee](https://github.com/Timotheeee/btd6_mods)
+Maintained by: [hemidemisemipresent](https://github.com/hemisemidemipresent), [Timotheeee](https://github.com/Timotheeee/btd6_mods) and [Silentstorm](https://github.com/Onixiya)
 
-If you want to change something here, contact `hemidemisemipresent#0301` / `Timotheeee1#0538` on discord or [create a fork and make a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) on the [github repo](https://github.com/hemisemidemipresent/btd6-modding-tutorial)
+If you want to change something here, contact `hemidemisemipresent#0301` / `Timotheeee1#1337` / `Silentstorm#5336` on discord or [create a fork and make a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) on the [github repo](https://github.com/hemisemidemipresent/btd6-modding-tutorial)
