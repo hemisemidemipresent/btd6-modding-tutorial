@@ -16,7 +16,7 @@ You should now see this screen
 
 <img src="https://cdn.discordapp.com/attachments/500665135711387680/1060234810158764122/image.png"/>
 
-**Make sure that version 0.6.0 is selected. Older versions DO NOT WORK!**
+**Make sure that version 0.6.0 (or newer) is selected. Older versions DO NOT WORK!**
 
 Click the "select" button.
 
