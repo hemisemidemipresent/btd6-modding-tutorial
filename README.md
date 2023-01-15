@@ -4,15 +4,19 @@ If you came here from H2K titan's video tutorial, then you should follow this gu
 
 Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe). **IMPORTANT**: Melonloader now requires [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you don't have it, you will get an error when launching the game.
 
-Run the **melonloader** installer. You should see this screen
-
-<img src="https://cdn.discordapp.com/attachments/500665135711387680/1061230225398181978/image.png"/>
+Run the **melonloader** installer. 
 
 Go to the "Settings" tab on the right of the installer. Enable the "Show ALPHA Pre-Releases" option.
 
 <img src="https://cdn.discordapp.com/attachments/859064232262762497/1057496273906839632/image.png"/>
 
 Go back to the "Automated" tab on the left of the installer.
+
+You should now see this screen
+
+<img src="https://cdn.discordapp.com/attachments/500665135711387680/1060234810158764122/image.png"/>
+
+**Make sure that version 0.6.0 is selected. Older versions DO NOT WORK!**
 
 Click the "select" button.
 
