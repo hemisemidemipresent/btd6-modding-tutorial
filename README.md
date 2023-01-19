@@ -61,7 +61,7 @@ You can also get mods from these discord servers:
 
 [BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY) : Most public mods are here
 
-[Inferno Server](https://discord.gg/cqRqrvjv68) : Where Tewtiy gets his mods (note that most of them aren't public)
+[1330 Studios](https://discord.gg/cqRqrvjv68) : Most public mods are here too. Tewtiy also gets his mods from here (note that some of them aren't public, especially older ones)
 
 Avoid using Nexus mods as the vast majority of them are outdated/stolen.
 
