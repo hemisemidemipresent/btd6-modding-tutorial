@@ -18,7 +18,7 @@ Install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/
 
 Now launch the game to generate the "Mods" folder. If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe) and then restart your pc. 
 
-If you are using the **Epic Games** version of the game, then put [this file](https://github.com/Baydock/BTD6EpicGamesModCompat/releases/download/1.0.5/BTD6EpicGamesModCompat.dll) in the **plugins folder** or the game will crash on launch. Note: this file should NOT be placed in the "Mods" folder
+If you are using the **`Epic Games`** version of the game, then put [this file](https://github.com/Baydock/BTD6EpicGamesModCompat/releases/download/1.0.5/BTD6EpicGamesModCompat.dll) in the **plugins folder** or the game will crash on launch. Note: this file should NOT be placed in the "Mods" folder
 
 Put **`Btd6ModHelper.dll`** in the "Mods" folder
 
