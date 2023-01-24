@@ -2,43 +2,25 @@
 
 If you came here from H2K titan's video tutorial, then you should follow this guide directly as the video is outdated.
 
-Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) and [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe). **IMPORTANT**: Melonloader now requires [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you don't have it, you will get an error when launching the game.
+Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) and [MelonLoader](https://github.com/LavaGang/MelonLoader/releases/download/v0.6.0/MelonLoader.x64.zip). **IMPORTANT**: Melonloader now requires [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you don't have it, you will get an error when launching the game.
 
-Run the **melonloader** installer. 
+Open the Melonloader zip you just downloaded, then select all of the files in the zip and copy them
 
-Go to the "Settings" tab on the right of the installer. Enable the "Show ALPHA Pre-Releases" option.
+<img src="https://cdn.discordapp.com/attachments/761529691491270656/1067357050935451688/image.png"/>
 
-<img src="https://cdn.discordapp.com/attachments/859064232262762497/1057496273906839632/image.png"/>
+Navigate to the BTD6 directory, which by default is located at: `C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6`
 
-Go back to the "Automated" tab on the left of the installer.
+Paste the files from the zip into the BTD6 directory
 
-You should now see this screen
-
-<img src="https://cdn.discordapp.com/attachments/500665135711387680/1060234810158764122/image.png"/>
-
-**Make sure that version 0.6.0 (or newer) is selected. Older versions DO NOT WORK!**
-
-Click the "select" button.
-
-Navigate to the BTD6 directory, which by default is located at: `C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6` and click on `BloonsTD6.exe`, then click open:
-
-<img src="https://cdn.discordapp.com/attachments/699781597515481159/776980387477061662/Screenshot_1315.png"/>
-
-On the melonloader window, click the install button. The BTD6 directory will now include some new folders and files.
-
-Put **`Btd6ModHelper.dll`** in the "Mods" folder
-
-If all goes well, the Mods directory should look like this:
-
-<img src="https://cdn.discordapp.com/attachments/859064232262762497/1008077519242657822/unknown.png"/>
-
-**IMPORTANT: `Btd6ModHelper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
+<img src="https://cdn.discordapp.com/attachments/761529691491270656/1067359077820280852/image.png"/>
 
 Install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer) if you haven't already. The game will crash on launch if you don't have it.
 
-If you are using the Epic Games version of the game, you will also need to follow [this guide](https://github.com/Baydock/BTD6EpicGamesModCompat) or the game will crash on launch.
+Now launch the game to generate the "Mods" folder. If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe) and then restart your pc. 
 
-Now launch the game to see if it works. If you get the **il2cpp_init** error, install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe) and then restart your pc. 
+If you are using the **Epic Games** version of the game, then put [this file](https://github.com/Baydock/BTD6EpicGamesModCompat/releases/download/1.0.5/BTD6EpicGamesModCompat.dll) in the **plugins folder** or the game will crash on launch. Note: this file should NOT be placed in the "Mods" folder
+
+**IMPORTANT: `Btd6ModHelper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
 
 ## How to uninstall Melonloader
 
