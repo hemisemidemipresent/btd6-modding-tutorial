@@ -18,8 +18,6 @@ Install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/
 
 Now launch the game to generate the "Mods" folder. If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe) and then restart your pc. 
 
-If you are using the **`Epic Games`** version of the game, then put [this file](https://github.com/Baydock/BTD6EpicGamesModCompat/releases/download/1.0.5/BTD6EpicGamesModCompat.dll) in the **plugins folder** or the game will crash on launch. Note: this file should NOT be placed in the "Mods" folder
-
 Put **`Btd6ModHelper.dll`** in the "Mods" folder
 
 If all goes well, the Mods directory should look like this:
@@ -27,6 +25,8 @@ If all goes well, the Mods directory should look like this:
 <img src="https://cdn.discordapp.com/attachments/859064232262762497/1008077519242657822/unknown.png"/>
 
 **IMPORTANT: `Btd6ModHelper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
+
+If you are using the **`Epic Games`** version of the game, then you will also need to follow [this tutorial](https://github.com/Baydock/BTD6EpicGamesModCompat/) to make melonloader work.
 
 ## How to uninstall Melonloader
 
