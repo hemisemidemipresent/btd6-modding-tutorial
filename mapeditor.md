@@ -1,5 +1,7 @@
+note: if you windows is set to a language that uses commas instead of periods to represent decimals, then the map editor doesn't work.
+
 # How to use the map editor
-- Start by Extracting the zip in your Mods folder (make sure you don't end up with a "map_editor" folder inside of another "map_editor" folder)
+- Start by Extracting the [zip](https://github.com/Timotheeee/btd6_mods/blob/master/map_editor/map_editor.zip) in your Mods folder (make sure you don't end up with a "map_editor" folder inside of another "map_editor" folder)
 - go in the map_editor folder, copy the "example" folder and rename it to the name of your map
 - Now go in that new folder and open info.txt, you will be able to change the music and difficulty (0 = beginner, 3 = expert etc)
 - Replace "image.png" with the image of your map (make sure the file keeps the same name)
