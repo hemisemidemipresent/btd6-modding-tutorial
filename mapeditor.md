@@ -1,4 +1,4 @@
-note: if you windows is set to a language that uses commas instead of periods to represent decimals, then the map editor doesn't work.
+note: if you windows is set to a language that uses commas instead of periods to represent decimals (like polish), then the map editor doesn't work.
 
 # How to use the map editor
 - Start by Extracting the [zip](https://github.com/Timotheeee/btd6_mods/blob/master/map_editor/map_editor.zip) in your Mods folder (make sure you don't end up with a "map_editor" folder inside of another "map_editor" folder)
