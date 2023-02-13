@@ -28,6 +28,8 @@ If all goes well, the Mods directory should look like this:
 
 If you are using the **`Epic Games`** version of the game, then you will also need to follow [this tutorial](https://github.com/Baydock/BTD6EpicGamesModCompat/) to make melonloader work.
 
+To create your own mods, watch [this video](https://www.youtube.com/watch?v=NSINBN3em6w) and check out the tips down below.
+
 ## How to uninstall Melonloader
 
 delete the melonloader, mods, plugins, userdata, userlibs folders as well as dobby.dll, notice.txt and version.dll
