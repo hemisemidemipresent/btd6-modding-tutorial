@@ -111,23 +111,10 @@ Install this: [https://aka.ms/vs/16/release/vc_redist.x64.exe](https://aka.ms/vs
 -   [Visual Studio](https://visualstudio.microsoft.com/) (not Visual Studio code)
 -   Some basic knowledge of [c#](https://docs.microsoft.com/en-us/dotnet/csharp/), though if you already know Java, it is close enough
 
+## getting started
+Read [this](https://github.com/gurrenm3/BTD-Mod-Helper/wiki/Getting-Started). The mod helper wiki also has a bunch of useful info about the game's structure.
+
 ## Tips
-
-It is generally a good idea to start by downloading an existing mod and then modifying it as it will include all the nescessary files. Start by downloading the speedhack for example, fix all the paths of the dll references and the paths in the properties file and then compile it with ctrl+shift+b to make sure it works.
-
-Mods usually reference Melonloader.dll, the mod helper and most of the files in the Managed folder.
-
-The [Mod helper wiki](https://github.com/gurrenm3/BTD-Mod-Helper/wiki) has a bunch of useful documentation.
-
-These 3 objects have a ton of useful stuff, use visual studio or decompilers to see what's available:
-
-`InGame.instance`
-
-`InGame.instance.bridge`
-
-`Game.instance`
-
-You can use [dnSpy](https://github.com/dnSpy/dnSpy/releases/tag/v6.1.8) (recomended) or [dotPeek](https://www.jetbrains.com/decompiler/) on `Assembly-CSharp.dll` to see (most) of the games functions/methods/classes.
 
 A lot of mods are open source, their code can give you an idea on how to do things.
 
@@ -148,6 +135,8 @@ The gamemodel defines everything from towers to bloons to difficulties.
 For a better overview of how it works here is [the whole thing converted to JSON (without towers)](https://cdn.discordapp.com/attachments/504783182755921930/869939855923236944/entiremodel.json)
 
 [Here](https://cdn.discordapp.com/attachments/504783182755921930/869939786734010418/Towers.zip) is the JSON for each individual tower
+
+You can also get newer json files by going into the in-game mod helper settings, there should be an option to dump the gamemodel there.
 
 If you want to create a custom tower you can use [this](https://github.com/Timotheeee/btd6_mods/blob/master/handkanonier/Main.cs) as a template. Creating custom towers mostly involves copying existing behaviors and pasting them together. Use the JSON above to see how towers are defined. Use [this video](https://www.youtube.com/watch?v=NSINBN3em6w) as a guide.
 
