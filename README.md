@@ -1,6 +1,6 @@
 # Downloads and Installation
 
-If you came here from H2K titan's video tutorial, then you should follow this guide directly as the video is outdated.
+If run into any issues while installing, then check the troubleshooting section down below.
 
 Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) and [MelonLoader](https://github.com/LavaGang/MelonLoader/releases/download/v0.6.0/MelonLoader.x64.zip). **IMPORTANT**: Melonloader now requires [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you don't have it, you will get an error when launching the game.
 
