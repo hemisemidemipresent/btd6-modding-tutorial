@@ -85,6 +85,10 @@ You installed the wrong .Net. Get this one [https://dotnet.microsoft.com/en-us/d
 
 You didn't uninstall melonloader correctly. you need to delete the melonloader, mods, plugins, userdata, userlibs folders as well as dobby.dll, notice.txt and version.dll
 
+## A popup window says "failed to initialize: failed to load library"
+
+Change the language of Windows to english
+
 ## The console says "No compatibility layer found"
 
 You need to download the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll)
