@@ -87,7 +87,7 @@ You didn't uninstall melonloader correctly. you need to delete the melonloader, 
 
 ## A popup window says "failed to initialize: failed to load library"
 
-Change the language of Windows to english
+Rename your btd6 folder to "BloonsTD6". If that doesn't work, change the language of Windows to english.
 
 ## The console says "No compatibility layer found"
 
