@@ -73,13 +73,9 @@ Using mods in private coop is risky, it is best to use an account that you don't
 
 # Troubleshooting
 
-## The console or a popup window says "il2cpp_init detour failed: One of the dependant libraries is missing"
+## The console or a popup window says "il2cpp_init detour failed"
 
 You need to install the .Net 6 Runtime [https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer)
-
-## The console or a popup window says "il2cpp_init detour failed: It was not possible to find a compatible framework version."
-
-You installed the wrong .Net. Get this one [https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer)
 
 ## A popup window says "failed to initialize: failed to find bootstrap"
 
@@ -87,12 +83,25 @@ You didn't uninstall melonloader correctly. you need to delete the melonloader, 
 
 ## A popup window says "failed to initialize: failed to load library"
 
-Rename your btd6 folder to "BloonsTD6". If that doesn't work, change the language of Windows to english.
+Rename your btd6 folder to "BloonsTD6". If that doesn't work, change the language of Windows to english. If that still doesn't work, reinstall the game with your antivirus turned off. It's not entirely clear what causes this error.
 
-## The console says "No compatibility layer found"
+## The console says "Could not load file or assembly MonoMod.RuntimeDetour"
 
-You need to download the mod helper, download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll)
-also make sure that it is **not in a zip file** and **not in a folder**. It should be a dll file directly inside of the "Mods" folder.
+Reinstall Melonloader with your antivirus turned off
+
+## The game is not saving
+
+Make sure you have the mod helper, you can download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll)
+
+If you are trying to uninstall, read the section above
+
+## The game crashes while loading mods
+
+-Make sure you have the mod helper, you can download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll)
+
+-Make sure you are not using any mods that were last updated before december 26th 2022
+
+-If that doesn't solve it, navigate to the Melonloader folder and check the "latest.log" file. if it doesn't contain any errors then check the console errors and see if you can figure it out yourself. if not, join one of the discord servers linked above and post the log file or a screenshot of the console in the help channel.
 
 ## The mods are in the Mods folder but they don’t work
 
@@ -102,8 +111,6 @@ If you still have problems, join one of the 2 discord servers above and then sen
 ## The game does not open at all, or gives an MSVCP140.dll was not found error
 
 Install this: [https://aka.ms/vs/16/release/vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe)
-
-
 
 
 
