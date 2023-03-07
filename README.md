@@ -85,7 +85,7 @@ You didn't uninstall melonloader correctly. you need to delete the melonloader, 
 
 Rename your btd6 folder to "BloonsTD6". If that doesn't work, change the language of Windows to english. If that still doesn't work, reinstall the game with your antivirus turned off. It's not entirely clear what causes this error.
 
-## The console says "Could not load file or assembly MonoMod.RuntimeDetour"
+## The console says "Could not load file or assembly ..."
 
 Reinstall Melonloader with your antivirus turned off
 
