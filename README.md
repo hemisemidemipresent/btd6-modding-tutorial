@@ -55,9 +55,7 @@ You can also get mods from these discord servers:
 
 Avoid using Nexus mods as the vast majority of them are outdated/stolen.
 
-1. if the mod comes in a zip file, extract it
-2. put the mod's `.dll` in the `Mods` directory
-3. make sure that there are no zip files or duplicate mods in the `Mods` directory
+To download mods from github, try to find a dll file and download it. If there is no dll file, then check if there are any releases
 
 To disable some mods, you can manually move the files to another directory.
 
