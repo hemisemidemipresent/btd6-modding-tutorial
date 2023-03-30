@@ -2,7 +2,7 @@
 
 If run into any issues while installing, then check the troubleshooting section down below.
 
-**IMPORTANT**: Mods that were last updated before december 26th 2022 **NO LONGER WORK** (because of some melonloader changes made around that time). Also, to use Melonloader you now need to download and install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you don't have it, you will get an error when launching the game.
+**IMPORTANT**: Mods that were last updated before december 26th 2022 **NO LONGER WORK** (because of some melonloader changes made around that time). Also, to use Melonloader you now need to download and install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you don't have it, you will get an error when launching the game. And Windows 7 is no longer supported.
 
 Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) and [MelonLoader](https://github.com/LavaGang/MelonLoader/releases/download/v0.6.0/MelonLoader.x64.zip)
 
@@ -16,7 +16,10 @@ Paste the files from the zip into the BTD6 directory
 
 <img src="https://cdn.discordapp.com/attachments/761529691491270656/1067359077820280852/image.png"/>
 
-Install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer) if you haven't already. The game will crash on launch if you don't have it.
+Download [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer) and install it
+
+<img src="https://cdn.discordapp.com/attachments/761529691491270656/1091098817958531162/image.png"/>
+
 
 Now launch the game to generate the "Mods" folder. If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe) and then restart your pc. 
 
