@@ -31,7 +31,7 @@ If all goes well, the Mods directory should look like this:
 
 **IMPORTANT: `Btd6ModHelper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
 
-If you are using the **`Epic Games`** version of the game, then you will also need to follow [this tutorial](https://github.com/Baydock/BTD6EpicGamesModCompat/) to make melonloader work.
+If you are using the **`Epic Games`** version of the game, then you will also need to follow [this tutorial](https://github.com/GrahamKracker/BTD6EpicGamesModCompat/releases/tag/1.8.0) to make melonloader work.
 
 To create your own mods, watch [this video](https://www.youtube.com/watch?v=NSINBN3em6w) and check out the tips down below.
 
