@@ -84,7 +84,7 @@ You didn't uninstall melonloader correctly. you need to delete the melonloader, 
 
 ## A popup window says "failed to initialize: failed to load library"
 
-Rename your btd6 folder to "BloonsTD6". If that doesn't work, change the language of Windows to english. If that still doesn't work, reinstall the game with your antivirus turned off. It's not entirely clear what causes this error.
+The path to the BTD6 exe file should not have any special characters
 
 ## The console says "Could not load file or assembly ..."
 
