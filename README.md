@@ -84,7 +84,7 @@ You didn't uninstall melonloader correctly. you need to delete the melonloader, 
 
 ## A popup window says "failed to initialize: failed to load library"
 
-The path to the BTD6 exe file should not have any special characters
+The path to the BTD6 exe file should not have any special characters. This includes dashes **`-`** and modified letters like **`À`**
 
 ## The console says "Could not load file or assembly ..."
 
