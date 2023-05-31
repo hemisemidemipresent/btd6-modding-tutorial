@@ -45,7 +45,7 @@ delete the melonloader, mods, plugins, userdata, userlibs folders as well as dob
 
 [Speedhack](https://github.com/Timotheeee/btd6_mods/blob/master/speedhackmelon/speedhackmelon.dll) (use keys 6,7,8,9 to change the speed)
 
-[Race Button](https://github.com/Timotheeee/btd6_mods/blob/master/racemod/racemod.dll)
+[Race Button](https://github.com/Timotheeee/btd6_mods/blob/master/racemod/racemod.dll) and [Round changer](https://github.com/Timotheeee/btd6_mods/raw/master/round_changer/round_changer.dll) (press F8 to use)
 
 
 # Obtaining Mods
