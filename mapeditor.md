@@ -1,8 +1,9 @@
 note: if you windows is set to a language that uses commas instead of periods to represent decimals (like polish), then the map editor doesn't work.
 
 # How to use the map editor
-- Start by Extracting the [zip](https://github.com/Timotheeee/btd6_mods/blob/master/map_editor/map_editor.zip) in your Mods folder (make sure you don't end up with a "map_editor" folder inside of another "map_editor" folder)
-- go in the map_editor folder, copy the "example" folder and rename it to the name of your map
+- Start by copying the files from the [zip](https://github.com/Timotheeee/btd6_mods/blob/master/map_editor/map_editor.zip) into your Mods folder like this:
+- <img src="https://cdn.discordapp.com/attachments/872504918831939625/872526528762753044/unknown.png"/>
+- go in the map_editor folder, make a copy of the "example" folder and rename it to the name of your map
 - Now go in that new folder and open info.txt, you will be able to change the music and difficulty (0 = beginner, 3 = expert etc)
 - Replace "image.png" with the image of your map (make sure the file keeps the same name)
 - Now launch the game and enter your map, so you can start defining what the paths and areas should be.
@@ -42,10 +43,15 @@ MusicUpbeat3A
 - If someone sent you a zip file with a map in it, just extract it into the map_editor folder.
 
 # Troubleshooting
+## The game crashes when entering the custom map, after defining the tracks and areas.
+You probably messed up while editing. you can edit or delete the paths.txt and areas.txt files to try to fix the problem or to start from scratch. Alternatively you can send those 2 files and your latest.log file in the help channel of one of the modding discord servers.
+
 ## If you can't find your map in the map list, make sure you have these files in your mods folder:
 <img src="https://cdn.discordapp.com/attachments/872504918831939625/872526528762753044/unknown.png"/>
+make sure you don't end up with a "map_editor" folder inside of another "map_editor" folder
 
 ## The game crashes when placing towers
 You need to start by defining the entire map as "land". (read the above sections again)
+
 
 
