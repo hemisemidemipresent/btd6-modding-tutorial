@@ -98,18 +98,19 @@ Make sure you have the mod helper, you can download the latest release here: [ht
 
 If you are trying to uninstall, read the section above
 
-## The game crashes while loading mods
+## The game crashes while loading mods, or the mods are not working
 
 -Make sure you have the mod helper, you can download the latest release here: [https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll)
 
 -Make sure you are not using any mods that were last updated before december 26th 2022
 
--If that doesn't solve it, navigate to the Melonloader folder and check the "latest.log" file. if it doesn't contain any errors then check the console errors and see if you can figure it out yourself. if not, join one of the discord servers linked above and post the log file or a screenshot of the console in the help channel.
+-Make sure your mods are in the dll format directly inside of the "Mods" folder. They should not be in a zip or in a subfolder. 
 
-## The mods are in the Mods folder but they don’t work
+-Game updates sometimes break mods and not all mod developers update their mods. 
 
-Make sure you are using the latest version of the mod helper (check the link above). Make sure your mods are in the dll format directly inside of the "Mods" folder. They should not be in a zip. Game updates sometimes break mods and not all mod developers update their mods. Avoid using nexus mods as the vast majority of them are outdated/low quality/stolen.
-If you still have problems, join one of the 2 discord servers above and then send the `latest.log` located in the **Melonloader** folder in the help channel. 
+-Avoid using nexus mods as the vast majority of them are outdated/low quality/stolen.
+
+-If none of the above tips solve the problem, navigate to the Melonloader folder and check the "latest.log" file. If you see that a specific mod appears to be causing errors, remove it or check for a new version. If the log file doesn't contain any errors then check if the console does. You can also try removing each mod one by one until you find the one that is causing issues. If you can't figure it out yourself, join one of the discord servers linked above and post the log file or a screenshot of the console in the help channel.
 
 ## The game does not open at all, or gives an MSVCP140.dll was not found error
 
