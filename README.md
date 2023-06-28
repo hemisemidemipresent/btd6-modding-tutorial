@@ -90,7 +90,7 @@ The path to the BTD6 exe file should not have any special characters. This inclu
 
 ## The console says "Could not load file or assembly ..."
 
-Reinstall Melonloader with your antivirus turned off
+Delete the MelonLoader folder, then reinstall Melonloader with your antivirus turned off. If you get the exact same error again, try replacing the melonloader folder with these [files](https://cdn.discordapp.com/attachments/500665135711387680/1121347870885412974/MelonLoader.zip)
 
 ## The game is not saving
 
