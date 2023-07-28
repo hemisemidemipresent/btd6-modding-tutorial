@@ -52,11 +52,9 @@ delete the melonloader, mods, plugins, userdata, userlibs folders as well as dob
 
 The mod helper adds a new button to the bottom right of the main menu which allows you to access the mod browser, where you can find a bunch of mods as well as mod repositories.
 
-You can also get mods from these discord servers:
+You can also get mods from this discord server:
 
-[BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY) : Most public mods are here
-
-[1330 Studios](https://discord.gg/cqRqrvjv68) : Most public mods are here too. Tewtiy also gets his mods from here (note that some of them aren't public, especially older ones)
+[BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY) : Most public mods are here. You will need to verify your Steam account to see the mod list. If you have the game on Epic then use the in-game mod browser.
 
 Avoid using Nexus mods as the vast majority of them are outdated/stolen.
 
@@ -110,7 +108,7 @@ If you are trying to uninstall, read the section above
 
 -Avoid using nexus mods as the vast majority of them are outdated/low quality/stolen.
 
--If none of the above tips solve the problem, navigate to the Melonloader folder and check the "latest.log" file. If you see that a specific mod appears to be causing errors, remove it or check for a new version. If the log file doesn't contain any errors then check if the console does. You can also try removing each mod one by one until you find the one that is causing issues. If you can't figure it out yourself, join one of the discord servers linked above and post the log file or a screenshot of the console in the help channel.
+-If none of the above tips solve the problem, navigate to the Melonloader folder and check the "latest.log" file. If you see that a specific mod appears to be causing errors, remove it or check for a new version. If the log file doesn't contain any errors then check if the console does. You can also try removing each mod one by one until you find the one that is causing issues. If you can't figure it out yourself, join the discord server linked above and post the log file or a screenshot of the console in the help channel.
 
 ## The game does not open at all, or gives an MSVCP140.dll was not found error
 
