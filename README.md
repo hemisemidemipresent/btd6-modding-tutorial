@@ -56,11 +56,11 @@ The mod helper adds a new button to the bottom right of the main menu which allo
 
 You can also get mods from this discord server:
 
-[BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY) : Most public mods are here. You will need to verify your Steam account to see the mod list. If you have the game on Epic then use the in-game mod browser.
+[BTD6 Mods and Discussions](https://discord.gg/hENWNsd5pY)
 
 Avoid using Nexus mods as the vast majority of them are outdated/stolen.
 
-To download mods from github, try to find a dll file and download it. If there is no dll file, then check if there are any releases
+To download mods from github, try to find a dll file and download it. If there is no dll file, then check if there are any releases.
 
 To disable some mods, you can manually move the files to another directory.
 
