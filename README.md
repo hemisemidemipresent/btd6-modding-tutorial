@@ -33,6 +33,8 @@ If all goes well, the Mods directory should look like this:
 
 If you are using the **`Epic Games`** version of the game, then you will also need to follow [this tutorial](https://github.com/GrahamKracker/BTD6EpicGamesModCompat/) to make melonloader work.
 
+There is a common problem where some anti-viruses delete certain melonloader files. This is usually not an issue with Windows Defender. If you are using another anti-virus, then add an exception to the melonloader folder.
+
 To create your own mods, watch [this video](https://www.youtube.com/watch?v=NSINBN3em6w) and check out the tips down below.
 
 ## How to uninstall Melonloader
