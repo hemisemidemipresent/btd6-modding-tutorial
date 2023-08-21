@@ -93,7 +93,7 @@ The path to the BTD6 exe file should not have any special characters. This inclu
 Delete the MelonLoader folder, then reinstall Melonloader with your antivirus turned off. If you get the exact same error again, try replacing the melonloader folder with these [files](https://cdn.discordapp.com/attachments/500665135711387680/1121347870885412974/MelonLoader.zip)
 
 ## The console says "1 Plugin loaded" and then gets stuck
-Navigate to the btd6 files and open EOSbootstrapper.exe. When the game loads and you get stuck on the loading screen, close it and open the game from epic games launcher
+Use [this](https://nightly.link/LavaGang/MelonLoader/workflows/build/alpha-development) melonloader version
 
 ## The game is not saving
 
