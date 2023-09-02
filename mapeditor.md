@@ -5,7 +5,7 @@ note: if your Windows is set to a language that uses commas instead of periods t
 - <img src="https://cdn.discordapp.com/attachments/872504918831939625/872526528762753044/unknown.png"/>
 - go in the map_editor folder, make a copy of the "example" folder and rename it to the name of your map
 - Now go in that new folder and open info.txt, you will be able to change the music and difficulty (0 = beginner, 3 = expert etc)
-- Replace "image.png" with the image of your map (make sure the file keeps the same name)
+- Replace "image.png" with the image of your map (make sure the new file is called image.png)
 - Now launch the game and enter your map, so you can start defining what the paths and areas should be.
 
 ## defining paths
