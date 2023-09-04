@@ -150,9 +150,9 @@ AssetBundle.LoadFromMemory(File.ReadAllBytes(@"bundle"))
 
 The gamemodel defines everything from towers to bloons to difficulties.
 
-For a better overview of how it works here is [the whole thing converted to JSON (without towers)](https://cdn.discordapp.com/attachments/504783182755921930/869939855923236944/entiremodel.json)
+For a better overview of how it works here is [the whole thing converted to JSON](https://github.com/Btd6ModHelper/btd6-game-data)
 
-[Here](https://cdn.discordapp.com/attachments/504783182755921930/869939786734010418/Towers.zip) is the JSON for each individual tower
+[Here]((https://github.com/Btd6ModHelper/btd6-game-data/tree/main/Towers)) is the JSON for each individual tower
 
 You can also get newer json files by going into the in-game mod helper settings, there should be an option to dump the gamemodel there.
 
