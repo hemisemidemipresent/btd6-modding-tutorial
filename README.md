@@ -2,7 +2,7 @@
 
 If run into any issues while installing, then check the [troubleshooting section](https://hemisemidemipresent.github.io/btd6-modding-tutorial/#troubleshooting) down below.
 
-**IMPORTANT**: Mods that were last updated before december 26th 2022 **NO LONGER WORK** (because of some melonloader changes made around that time). Also, to use Melonloader you now need to download and install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you don't have it, you will get an error when launching the game. And Windows 7 is no longer supported.
+**IMPORTANT**: To use Melonloader you now need to download and install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you don't have it, you will get an error when launching the game.
 
 Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) and [MelonLoader](https://nightly.link/LavaGang/MelonLoader/workflows/build/alpha-development/MelonLoader.Windows.x64.CI.Release.zip)
 
