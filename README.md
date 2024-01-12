@@ -4,7 +4,7 @@ If run into any issues while installing, then check the [troubleshooting section
 
 **IMPORTANT**: To use Melonloader you now need to download and install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer). If you don't have it, you will get an error when launching the game.
 
-Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) and [MelonLoader](https://github.com/LavaGang/MelonLoader/releases/download/v0.6.2/MelonLoader.x64.zip)
+Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/latest/download/Btd6ModHelper.dll) and [MelonLoader](https://nightly.link/LavaGang/MelonLoader/workflows/build/alpha-development/MelonLoader.Windows.x64.CI.Release.zip)
 
 Open the Melonloader zip you just downloaded, then select all of the files in the zip and copy them
 
