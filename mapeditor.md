@@ -1,8 +1,7 @@
 note: if your Windows is set to a language that uses commas instead of periods to represent decimals (like polish), then the map editor doesn't work.
 
 # How to use the map editor
-- Start by copying the files from the [zip](https://github.com/Timotheeee/btd6_mods/blob/master/map_editor/map_editor.zip) into your Mods folder like this:
-- <img src="https://cdn.discordapp.com/attachments/872504918831939625/872526528762753044/unknown.png"/>
+- Start by copying the files from the [zip](https://github.com/Timotheeee/btd6_mods/blob/master/map_editor/map_editor.zip) into your Mods folder. The mods folder should have include the mod helper, the 2 dll files from the map editor and the map_editor folder.
 - go in the map_editor folder, make a copy of the "example" folder and rename it to the name of your map
 - Now go in that new folder and open info.txt, you will be able to change the music and difficulty (0 = beginner, 3 = expert etc)
 - Replace "image.png" with the image of your map (make sure the new file is called image.png)
@@ -46,8 +45,7 @@ MusicUpbeat3A
 ## The game crashes when entering the custom map, after defining the tracks and areas.
 You probably messed up while editing. you can edit or delete the paths.txt and areas.txt files to try to fix the problem or to start from scratch. Alternatively you can send those 2 files and your latest.log file in the help channel of one of the modding discord servers.
 
-## If you can't find your map in the map list, make sure you have these files in your mods folder:
-<img src="https://cdn.discordapp.com/attachments/872504918831939625/872526528762753044/unknown.png"/>
+## If you can't find your map in the map list
 make sure you don't end up with a "map_editor" folder inside of another "map_editor" folder
 
 ## The game crashes when placing towers
