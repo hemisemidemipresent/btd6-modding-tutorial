@@ -8,17 +8,17 @@ Download [the mod helper](https://github.com/gurrenm3/BTD-Mod-Helper/releases/la
 
 Open the Melonloader zip you just downloaded, then select all of the files in the zip and copy them
 
-<img src="https://cdn.discordapp.com/attachments/761529691491270656/1067357050935451688/image.png"/>
+<img src="https://github.com/hemisemidemipresent/btd6-modding-tutorial/blob/main/1.png"/>
 
 Navigate to the BTD6 directory, which by default is located at: `C:\Program Files (x86)\Steam\steamapps\common\BloonsTD6`
 
 Paste the files from the zip into the BTD6 directory
 
-<img src="https://cdn.discordapp.com/attachments/761529691491270656/1067359077820280852/image.png"/>
+<img src="https://github.com/hemisemidemipresent/btd6-modding-tutorial/blob/main/2.png"/>
 
 Download [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer) and install it
 
-<img src="https://cdn.discordapp.com/attachments/761529691491270656/1091098817958531162/image.png"/>
+<img src="https://github.com/hemisemidemipresent/btd6-modding-tutorial/blob/main/4.png"/>
 
 
 Now launch the game to generate the "Mods" folder. If you get the MSVCP140.dll was not found error, or the game doesn't launch at all then install [visual c++](https://aka.ms/vs/16/release/vc_redist.x64.exe) and then restart your pc. 
@@ -27,7 +27,7 @@ Put **`Btd6ModHelper.dll`** in the "Mods" folder
 
 If all goes well, the Mods directory should look like this:
 
-<img src="https://cdn.discordapp.com/attachments/859064232262762497/1008077519242657822/unknown.png"/>
+<img src="https://github.com/hemisemidemipresent/btd6-modding-tutorial/blob/main/3.png"/>
 
 **IMPORTANT: `Btd6ModHelper.dll` needs to be in the Mods directory at all times. If you don't have the mod helper, the game will not save progress and most mods will not work.**
 
