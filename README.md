@@ -70,7 +70,6 @@ By default the game doesn't let you access public coop, races, collection events
 Using mods that give your account an advantage such as infinite money/xp/trophies/knowledge mods will get your account flagged. 
 To protect your main account it is recommended to play on an alternate account. If you don't want to do this, turning off your internet connection is also an effective way to avoid getting flagged while using mods in singleplayer/challenge editor (although not guaranteed to always work). 
 If you are flagged, you will have 2 leaves above your settings icon and you will no longer be able to play public coop games, play contested territory or submit race times. 
-Using the speedhack in singleplayer is usually fine, unless you abuse it to grind monkey money faster and then get a top 50 time in a race. Turn off your internet while using it to be safer. Using speedhack in odyssey is guaranteed to get you flagged.
 Using mods in private coop is risky, it is best to use an account that you don't care about and also make sure that every player is using the same mods with the same configurations. If you do get flagged, you will still be able to play private coop.
 
 
@@ -152,7 +151,7 @@ The gamemodel defines everything from towers to bloons to difficulties.
 
 For a better overview of how it works here is [the whole thing converted to JSON](https://github.com/Btd6ModHelper/btd6-game-data)
 
-[Here]((https://github.com/Btd6ModHelper/btd6-game-data/tree/main/Towers)) is the JSON for each individual tower
+[Here](https://github.com/Btd6ModHelper/btd6-game-data/tree/main/Towers) is the JSON for each individual tower
 
 You can also get newer json files by going into the in-game mod helper settings, there should be an option to dump the gamemodel there.
 
